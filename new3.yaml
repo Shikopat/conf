@@ -455,13 +455,12 @@ rule-providers:
     path: ./providers/rule/telegramcidr.yaml
     interval: 86400
 
-  lan:
+  lancidr:
     type: http
-    behavior: classical
-    path: ./providers/rule/LAN.yaml
+    behavior: ipcidr
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./providers/rule/lancidr.yaml
     interval: 86400
-
   dire:
     type: http
     behavior: classical
@@ -486,7 +485,7 @@ rules:
   - DOMAIN-SUFFIX,myip.com,Just4FaceBook
   - RULE-SET,ad-keyword,REJECT
   - RULE-SET,bloc,REJECT
-  - RULE-SET,lan,DIRECT
+  - RULE-SET,lancidr,DIRECT
   - RULE-SET,foreign,FuckWall
   - RULE-SET,telegramcidr,FuckWall
   - RULE-SET,googled,FuckWall
