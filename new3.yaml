@@ -60,19 +60,11 @@ dns:
     - 'stun.*.*'
     - 'stun.*.*.*'
   nameserver:
-    - tls://dns.google:853
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.adguard.com/dns-query
-    - https://dnsforge.de/dns-quer
-    - https://dns.quad9.net/dns-query
+    - 1.1.1.1
+    - 8.8.8.8
   fallback:
-    - tls://dns.google:853
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.adguard.com/dns-query
-    - https://dnsforge.de/dns-quer
-    - https://dns.quad9.net/dns-query
+    - 1.1.1.1
+    - 8.8.8.8
   fallback-filter:
     geoip: true
     ipcidr:
