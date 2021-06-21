@@ -256,19 +256,17 @@ proxy-providers:
   sspool_all:
     type: http
     #url: "https://sspool.herokuapp.com/clash/proxies"
-    #https://sspool.herokuapp.com/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU
-    #url: "https://sspool.herokuapp.com/clash/proxies?nc=CN,HK,TW&speed=1,200"
-    url: "https://sspool.herokuapp.com/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&speed=1,200"
+    url: "https://sspool.herokuapp.com/clash/proxies?c=US,CA,AU,CH,DE,GB,NL,FR&speed=1,200"
     path: ./download/sspool_all.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
   
-  sspool_us:
+  du5:
     type: http
-    url: "https://sspool.herokuapp.com/clash/proxies?c=US&speed=1,200"
-    path: ./download/sspool_us.yaml
+    url: "https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml"
+    path: ./download/du5.yaml
     health-check:
       enable: true
       interval: 600
@@ -278,17 +276,17 @@ proxy-providers:
   dswang_all:
     type: http
     #url: "https://free.dswang.ga/clash/proxies?nc=CN,HK,TW&speed=1,200"
-    url: "https://free.dswang.ga/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&speed=1,200"    
+    url: "https://free.dswang.ga/clash/proxies?c=US,CA,AU,CH,DE,GB,NL,FR&speed=1,200"    
     path: ./download/dswang_all.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204 
       
-  dswang_us:
+  skywolf627:
     type: http
-    url: "https://free.dswang.ga/clash/proxies?c=US&speed=1,200"    
-    path: ./download/dswang_us.yaml
+    url: "https://raw.githubusercontent.com/skywolf627/VmessActions/main/clash.yml"    
+    path: ./download/skywolf627.yaml
     health-check:
       enable: true
       interval: 600
@@ -307,18 +305,17 @@ proxy-providers:
 #https://proxypool-guest997.herokuapp.com/clash/config
   herokuapp_all:
     type: http
-    #url: "https://proxypool-guest997.herokuapp.com/clash/proxies?nc=CN,HK,TW&speed=1,100"
-    url: "https://proxypool-guest997.herokuapp.com/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&speed=1,100"  
+    url: "https://proxypool-guest997.herokuapp.com/clash/proxies?c=US,CA,AU,CH,DE,GB,NL,FR&speed=1,100"  
     path: ./download/herokuapp_all.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204 
       
-  herokuapp_us:
+  shoujiyanxishe:
     type: http
-    url: "https://proxypool-guest997.herokuapp.com/clash/proxies?c=US&speed=1,100"    
-    path: ./download/herokuapp_us.yaml
+    url: "https://raw.githubusercontent.com/shoujiyanxishe/atu/main/clash.yaml"    
+    path: ./download/shoujiyanxishe.yaml
     health-check:
       enable: true
       interval: 600
@@ -343,13 +340,21 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204 
+      
+  zyzmzyz:
+    type: http
+    url: "https://raw.githubusercontent.com/zyzmzyz/free-nodes/master/Clash.yml"    
+    path: ./download/zyzmzyz.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204 
 
-# #https://www.233660.xyz/clash/config
-  # all_233660:
+
+  # newestYT0:
     # type: http
-    # #url: "https://www.233660.xyz/clash/proxies?nc=CN,HK,TW&speed=1,30"
-    # url: "https://www.233660.xyz/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&speed=1,100"  
-    # path: ./download/all_233660.yaml
+    # url: "https://raw.githubusercontent.com/huaxinCLUB/NodeSpider/master/newYaml/newestYT.yaml"
+    # path: ./download/newestYT.yaml
     # health-check:
       # enable: true
       # interval: 600
@@ -357,8 +362,8 @@ proxy-providers:
       
   # us_233660:
     # type: http
-    # url: "https://www.233660.xyz/clash/proxies?c=US&speed=1,100"    
-    # path: ./download/us_233660.yaml
+    # url: "https://raw.githubusercontent.com/huaxinCLUB/NodeSpider/master/newYaml/newestWB.yaml"    
+    # path: ./download/newestWB.yaml
     # health-check:
       # enable: true
       # interval: 600
@@ -367,8 +372,8 @@ proxy-providers:
 #https://hm2019721.ml
   all_hm2019721:
     type: http
-    url: "https://hm2019721.ml/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&type=vmess"  
-    path: ./download/all_hm2019721.yaml
+    url: "https://raw.githubusercontent.com/huaxinCLUB/NodeSpider/master/newYaml/mattkaydiary.yaml"  
+    path: ./download/mattkaydiary.yaml
     health-check:
       enable: true
       interval: 600
@@ -376,8 +381,8 @@ proxy-providers:
       
   us_hm2019721:
     type: http
-    url: "https://hm2019721.ml/clash/proxies?c=US&type=vmess"
-    path: ./download/us_hm2019721.yaml
+    url: "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml"
+    path: ./download/adispeed.yaml
     health-check:
       enable: true
       interval: 600
@@ -401,27 +406,16 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204    
-
-#https://yugogo.xyz/?page_id=3
-  # all_yugogo:
-    # type: http
-    # #url: "https://www.yugogogogo.tk/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&type=vmess"
-    # url: "https://www.yugogogogo.tk/clash/proxies"
-    # path: ./download/all_yugogo.yaml
-    # health-check:
-      # enable: true
-      # interval: 600
-      # url: http://www.gstatic.com/generate_204 
       
-  # us_yugogo:
-    # type: http
-    # url: "https://www.yugogogogo.tk/clash/proxies?type=vmess&c=US"
-    # path: ./download/us_yugogo.yaml
-    # health-check:
-      # enable: true
-      # interval: 600
-      # url: http://www.gstatic.com/generate_204 
-
+  freebaipiao:
+    type: http
+    url: "https://raw.githubusercontent.com/freebaipiao/freebaipiao/main/freebaipiao.yaml"
+    path: ./download/freebaipiao.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204  
+      
 rule-providers:
   rejecter:
     type: http
