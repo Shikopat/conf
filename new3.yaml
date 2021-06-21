@@ -3,7 +3,7 @@ socks-port: 7891
 redir-port: 7892
 tproxy-port: 7893
 mixed-port: 7890
-allow-lan: true
+allow-lan: false
 bind-address: "*"
 mode: rule
 log-level: silent
@@ -78,7 +78,6 @@ dns:
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
-proxies:
 proxy-groups:
   - name: "FuckWall"
     type: select
@@ -260,7 +259,6 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-
 
 #https://sspool.herokuapp.com/clash/config 
   sspool_all:
