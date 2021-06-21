@@ -104,7 +104,7 @@ proxy-groups:
       - BaDu_all
       - freebaipiao
       - us_kingfu
-      -herokuapp2_us
+      - herokuapp2_us
       
   - name: "Just4FaceBook"
     type: select
