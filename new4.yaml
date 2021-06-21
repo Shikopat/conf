@@ -104,79 +104,79 @@ proxy-groups:
   - name: 🇨🇳 CN
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - cn
   - name: 🇯🇵 JP
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - jp
   - name: 🇸🇬 SG
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - sg
   - name: 🇺🇸 US
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - us
   - name: 🇨🇦 CA
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - ca
   - name: 🇷🇺 RU
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - ru
   - name: 🇦🇺 AU
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - au
   - name: 🇨🇭 CH
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - ch
   - name: 🇩🇪 DE
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - de
   - name: 🇫🇷 FR
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - fr
   - name: 🇬🇧 GB
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - gb
   - name: 🇳🇱 NL
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - nl
   - name: OTHERS
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
     use:
       - others
   - name: Low Ping
@@ -184,19 +184,19 @@ proxy-groups:
     use:
       - all
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
   - name: Load balancing
     type: load-balance
     use:
       - all
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 1200
   - name: Failover
     type: fallback
     use:
       - all
     url: 'http://www.gstatic.com/generate_204'
-    interval: 900
+    interval: 1200
 
 proxy-providers:
   au:
@@ -205,7 +205,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-au.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   cn:
     type: http
@@ -213,7 +213,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-cn.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   us:
     type: http
@@ -221,7 +221,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-us.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   ca:
     type: http
@@ -229,7 +229,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-ca.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   jp:
     type: http
@@ -237,7 +237,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-jp.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   sg:
     type: http
@@ -245,7 +245,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-sg.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   ru:
     type: http
@@ -253,7 +253,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-ru.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   ch:
     type: http
@@ -261,7 +261,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-ch.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   de:
     type: http
@@ -269,7 +269,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-de.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   fr:
     type: http
@@ -277,7 +277,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-fr.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   gb:
     type: http
@@ -285,7 +285,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-gb.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   nl:
     type: http
@@ -293,7 +293,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-nl.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   others:
     type: http
@@ -301,7 +301,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider-others.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   all:
     type: http
@@ -309,7 +309,7 @@ proxy-providers:
     path: proxypool.fly.dev/provider.yaml
     health-check:
       enable: true
-      interval: 900
+      interval: 1200
       url: http://www.gstatic.com/generate_204
 rule-providers:
   rejecter:
@@ -324,7 +324,7 @@ rule-providers:
     behavior: classical
     path: ./providers/rule/common-ad-keyword.yaml
     url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/common-ad-keyword.yaml"
-    interval: 86400
+    interval: 600
 
   googled:
     type: http
