@@ -373,7 +373,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./providers/rule/LAN.yaml
-    url: "https://raw.githubusercontent.com/Shikopat/direct/main/LAN.yaml"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
     interval: 86400
 
   dire:
