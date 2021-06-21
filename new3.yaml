@@ -92,12 +92,17 @@ proxy-groups:
       - TestedPool
       - sspool_all
       - dswang_all
+      - skywolf627
+      - azadnet
       - herokuapp_all
+      - shoujiyanxishe
       - herokuapp2_all
+      - mattkaydiary
       - all_kingfu
-      - all_hm2019721
+      - adispeed
       - lion_all
       - BaDu_all
+      - freebaipiao
       
   - name: "Just4FaceBook"
     type: select
@@ -111,11 +116,13 @@ proxy-groups:
     use:
       - sspool_us
       - dswang_us
+      - azadnet
       - herokuapp_us
-      - herokuapp2_us
+      - shoujiyanxishe
       - us_kingfu
-      - us_hm2019721
-      - TestedPool
+      - lion_all
+      - BaDu_all
+      - freebaipiao
 
   - name: "Final"
     type: select
@@ -193,6 +200,7 @@ proxy-groups:
     use:
       - TestedPool
       - sspool_all
+      - du5
       - dswang_all
       - all_51798
       - herokuapp_all
@@ -208,6 +216,7 @@ proxy-groups:
     type: url-test
     use:
       - sspool_us
+      - du5
       - dswang_us
       - us_51798
       - herokuapp_us
@@ -290,7 +299,7 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204 
      
-  us_51798:
+  azadnet:
     type: http
     #url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml"
     url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml"
@@ -358,7 +367,7 @@ proxy-providers:
       # interval: 600
       # url: http://www.gstatic.com/generate_204 
       
-  # us_233660:
+  # newestWB:
     # type: http
     # url: "https://raw.githubusercontent.com/huaxinCLUB/NodeSpider/master/newYaml/newestWB.yaml"    
     # path: ./download/newestWB.yaml
@@ -367,8 +376,7 @@ proxy-providers:
       # interval: 600
       # url: http://www.gstatic.com/generate_204 
 
-#https://hm2019721.ml
-  all_hm2019721:
+  mattkaydiary:
     type: http
     url: "https://raw.githubusercontent.com/huaxinCLUB/NodeSpider/master/newYaml/mattkaydiary.yaml"  
     path: ./download/mattkaydiary.yaml
@@ -377,7 +385,7 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204 
       
-  us_hm2019721:
+  adispeed:
     type: http
     url: "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml"
     path: ./download/adispeed.yaml
@@ -389,7 +397,7 @@ proxy-providers:
 #https://free.kingfu.cf
   all_kingfu:
     type: http
-    url: "https://free.kingfu.cf/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&type=vmess"
+    url: "https://free.kingfu.cf/clash/proxies?c=US,CA,AU,CH,DE,GB,NL,FR&type=vmess"
     path: ./download/all_kingfu.yaml
     health-check:
       enable: true
