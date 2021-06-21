@@ -118,7 +118,6 @@ proxy-groups:
       - sspool_all
       - dswang_all
       - azadnet
-      - herokuapp_us
       - shoujiyanxishe
       - us_kingfu
       - lion_all
