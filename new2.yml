@@ -362,11 +362,11 @@ rule-providers:
     path: ./providers/rule/proxy.yaml
     interval: 86400
 
-  telegram:
+  telegramcidr:
     type: http
-    behavior: classical
-    path: ./providers/rule/Telegram.yaml
-    url: "https://raw.githubusercontent.com/Shikopat/other/main/Telegram.yaml"
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./providers/rule/telegramcidr.yaml
     interval: 86400
 
   lan:
@@ -395,7 +395,7 @@ rules:
   - RULE-SET,bloc,REJECT
   - RULE-SET,lan,DIRECT
   - RULE-SET,foreign,Select2
-  - RULE-SET,telegram,Select2
+  - RULE-SET,telegramcidr,Select2
   - RULE-SET,googled,Select2
   - RULE-SET,filtered,Select2
   - RULE-SET,dire,DIRECT
