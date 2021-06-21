@@ -78,8 +78,6 @@ dns:
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
-proxies:
-
 proxy-groups:
   - name: "FuckWall"
     type: select
@@ -91,7 +89,7 @@ proxy-groups:
       - tested4
       - tested5
       - tested6
-      - tested7
+      #- tested7
       - tested8
       - MySelected
       - DIRECT
@@ -107,7 +105,7 @@ proxy-groups:
       - herokuapp2_all
       - all_kingfu
       - all_hm2019721
-      - lion_all
+      #- lion_all
       - BaDu_all
       
   - name: "Just4FaceBook"
@@ -128,7 +126,14 @@ proxy-groups:
       - us_kingfu
       - us_hm2019721
       - TestedPool
-- name: "tested1"
+
+  - name: "Final"
+    type: select
+    proxies:
+      - FuckWall
+      - DIRECT
+
+  - name: "tested1"
     type: url-test
     use:
       - TestedPool
@@ -177,13 +182,13 @@ proxy-groups:
     interval: 600
     tolerance: 50
 
-  - name: "tested7"
-    type: url-test
-    use:
-      - lion_all
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 600
-    tolerance: 50
+  # - name: "tested7"
+    # type: url-test
+    # use:
+      # - lion_all
+    # url: 'http://www.gstatic.com/generate_204'
+    # interval: 600
+    # tolerance: 50
 
   - name: "tested8"
     type: url-test
@@ -204,7 +209,7 @@ proxy-groups:
       - herokuapp2_all
       - all_kingfu
       - all_hm2019721
-      - lion_all
+      #- lion_all
       - BaDu_all
     url: 'http://www.gstatic.com/generate_204'
     interval: 300  
@@ -235,14 +240,15 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
 #https://www.youtube.com/watch?v=HzMK4Nng9Kk&ab_channel=%E7%A7%91%E6%8A%80lion
-  lion_all:
-    type: http
-    url: "https://raw.githubusercontent.com/lion12776/kejilion/main/clash"     
-    path: ./download/lion_all.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
+  # lion_all:
+    # type: http
+    url: "https://raw.githubusercontent.com/lion12776/kejilion/main/clash"
+    # url: "https://www.baidu.com"   
+    # path: ./download/lion_all.yaml
+    # health-check:
+      # enable: true
+      # interval: 600
+      # url: http://www.gstatic.com/generate_204
 
 #八度科技
 #https://raw.githubusercontent.com/chfchf0306/4.18clash/main/Class
