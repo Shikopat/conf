@@ -245,7 +245,7 @@ proxy-providers:
 #https://raw.fastgit.org/chfchf0306/4.18clash/main/Class
   BaDu_all:
     type: http
-    url: "https://raw.fastgit.org/chfchf0306/4.18clash/main/Class"     
+    url: "https://raw.githubusercontent.com/chfchf0306/4.18clash/main/Class"     
     path: ./download/BaDu_all.yaml
     health-check:
       enable: true
@@ -307,9 +307,9 @@ proxy-providers:
       
   us_51798:
     type: http
-    #url: "https://proxy.51798.xyz/clash/proxies?c=US&speed=1,30"
-    url: "https://proxy.51798.xyz/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&speed=1,100"
-    path: ./download/us_51798.yaml
+    #url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml"
+    url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml"
+    path: ./download/azadnet.yaml
     health-check:
       enable: true
       interval: 600
