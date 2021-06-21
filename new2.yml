@@ -64,13 +64,11 @@ dns:
     - https://dns.google/dns-query
     - https://cloudflare-dns.com/dns-query
     - https://dns.adguard.com/dns-query
-    - https://dnsforge.de/dns-quer
   fallback:
     - tls://dns.google:853
     - https://dns.google/dns-query
     - https://cloudflare-dns.com/dns-query
     - https://dns.adguard.com/dns-query
-    - https://dnsforge.de/dns-quer
   fallback-filter:
     geoip: true
     ipcidr:
