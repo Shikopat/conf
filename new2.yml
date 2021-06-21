@@ -107,6 +107,10 @@ proxy-groups:
       - 🇳🇱 NL
       - OTHERS
 
+- name: Select Node
+    type: select
+    use:
+      - all
   - name: 🇨🇳 CN
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
