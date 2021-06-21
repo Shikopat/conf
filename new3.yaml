@@ -61,10 +61,10 @@ dns:
     - 'stun.*.*.*'
   nameserver:
     - 1.1.1.1
-    - 8.8.8.8
+    - 1.0.0.1
   fallback:
     - 1.1.1.1
-    - 8.8.8.8
+    - 1.0.0.1
   fallback-filter:
     geoip: true
     ipcidr:
@@ -241,7 +241,6 @@ proxy-providers:
       interval: 900
       url: http://www.gstatic.com/generate_204
 
-#https://raw.githubusercontent.com/chfchf0306/4.18clash/main/Class
   BaDu_all:
     type: http
     url: "https://raw.githubusercontent.com/chfchf0306/4.18clash/main/Class"     
@@ -271,7 +270,6 @@ proxy-providers:
       interval: 900
       url: http://www.gstatic.com/generate_204
  
-#https://free.dswang.ga/clash/config
   dswang_all:
     type: http
     url: "https://free.dswang.ga/clash/proxies?c=US,CA,AU,CH,DE,GB,NL,FR&speed=1,200"    
@@ -292,7 +290,6 @@ proxy-providers:
      
   azadnet:
     type: http
-    #url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml"
     url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml"
     path: ./download/azadnet.yaml
     health-check:
@@ -300,7 +297,6 @@ proxy-providers:
       interval: 900
       url: http://www.gstatic.com/generate_204 
 
-#https://proxypool-guest997.herokuapp.com/clash/config
   herokuapp_all:
     type: http
     url: "https://proxypool-guest997.herokuapp.com/clash/proxies?c=US,CA,AU,CH,DE,GB,NL,FR&speed=1,100"  
@@ -319,11 +315,9 @@ proxy-providers:
       interval: 900
       url: http://www.gstatic.com/generate_204 
 
-#https://free886.herokuapp.com/clash/config
   herokuapp2_all:
     type: http
-    #url: "https://free886.herokuapp.com/clash/proxies?nc=CN,TW,HK"
-    url: "https://free886.herokuapp.com/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU"     
+    url: "https://sspool.herokuapp.com/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU"     
     path: ./download/herokuapp2_all.yaml
     health-check:
       enable: true
