@@ -174,7 +174,7 @@ proxy-groups:
     type: url-test
     use:
       - all_kingfu
-      - all_hm2019721
+      - shoujiyanxishe
     url: 'http://www.gstatic.com/generate_204'
     interval: 600
     tolerance: 50
@@ -206,7 +206,7 @@ proxy-groups:
       - herokuapp_all
       - herokuapp2_all
       - all_kingfu
-      - all_hm2019721
+      - azadnet
       - lion_all
       - BaDu_all
     url: 'http://www.gstatic.com/generate_204'
@@ -218,7 +218,7 @@ proxy-groups:
       - sspool_us
       - du5
       - dswang_us
-      - us_51798
+      - skywolf627
       - herokuapp_us
       - herokuapp2_us
       - us_kingfu
