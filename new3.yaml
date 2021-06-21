@@ -92,7 +92,6 @@ proxy-groups:
       - TestedPool
       - sspool_all
       - dswang_all
-      - all_51798
       - herokuapp_all
       - herokuapp2_all
       - all_kingfu
@@ -112,7 +111,6 @@ proxy-groups:
     use:
       - sspool_us
       - dswang_us
-      - us_51798
       - herokuapp_us
       - herokuapp2_us
       - us_kingfu
