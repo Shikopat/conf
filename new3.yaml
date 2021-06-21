@@ -447,62 +447,62 @@ rule-providers:
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
     path: ./providers/rule/reject.yaml
-    interval: 86400
+    interval: 600
 
   ad-keyword:
     type: http
     behavior: classical
     path: ./providers/rule/common-ad-keyword.yaml
     url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/common-ad-keyword.yaml"
-    interval: 86400
+    interval: 900
 
   googled:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
     path: ./providers/rule/google.yaml
-    interval: 86400
+    interval: 900
 
   bloc:
     type: http
     behavior: classical
     path: ./providers/rule/block3.yaml
     url: "https://raw.githubusercontent.com/Shikopat/block/main/block2.yaml"
-    interval: 86400
+    interval: 900
 
   foreign:
     type: http
     behavior: classical
     path: ./providers/rule/foreign.yaml
     url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/foreign.yaml"
-    interval: 86400
+    interval: 900
 
   filtered:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
     path: ./providers/rule/proxy.yaml
-    interval: 86400
+    interval: 900
 
   telegramcidr:
     type: http
     behavior: ipcidr
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
     path: ./providers/rule/telegramcidr.yaml
-    interval: 86400
+    interval: 900
 
   lancidr:
     type: http
     behavior: ipcidr
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
     path: ./providers/rule/lancidr.yaml
-    interval: 86400
+    interval: 900
   dire:
     type: http
     behavior: classical
     path: ./providers/rule/dire.yaml
     url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/direct.yaml"
-    interval: 86400
+    interval: 900
     
 
 rules:
