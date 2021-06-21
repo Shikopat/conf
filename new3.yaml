@@ -468,6 +468,13 @@ rule-providers:
     path: ./providers/rule/dire.yaml
     url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/direct.yaml"
     interval: 86400
+    
+  iri:
+    type: http
+    behavior: classical
+    path: ./providers/rule/IR.yaml
+    url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/ipcidr.yaml"
+    interval: 86400
 
 rules:
   - DOMAIN,clash.razord.top,DIRECT
@@ -485,5 +492,6 @@ rules:
   - RULE-SET,googled,FuckWall
   - RULE-SET,filtered,FuckWall
   - RULE-SET,dire,DIRECT
+  - RULE-SET,iri,DIRECT
   - GEOIP,IR,DIRECT
   - MATCH,FuckWall,Final
