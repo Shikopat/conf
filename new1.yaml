@@ -1335,11 +1335,11 @@ rule-providers:
     path: ./providers/rule/telegramcidr.yaml
     interval: 86400
 
-  lan:
+  lancidr:
     type: http
-    behavior: classical
-    path: ./providers/rule/LAN.yaml
+    behavior: ipcidr
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
     interval: 86400
 
   dire:
@@ -1359,7 +1359,7 @@ rule-providers:
 rules:
   - RULE-SET,ad-keyword,REJECT
   - RULE-SET,bloc,REJECT
-  - RULE-SET,lan,DIRECT
+  - RULE-SET,lancidr,DIRECT
   - RULE-SET,foreign,🔰 SELECT
   - RULE-SET,telegramcidr,🔰 SELECT
   - RULE-SET,googled,🔰 SELECT
