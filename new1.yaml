@@ -1311,7 +1311,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./providers/rule/block3.yaml
-    url: "https://cdn.jsdelivr.net/gh/Shikopat/block/block2.yaml"
+    url: "https://raw.githubusercontent.com/Shikopat/block/main/block2.yaml"
     interval: 86400
 
   foreign:
