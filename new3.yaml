@@ -1,8 +1,5 @@
 port: 7890
 socks-port: 7891
-redir-port: 7892
-tproxy-port: 7893
-mixed-port: 7890
 allow-lan: false
 bind-address: "*"
 mode: rule
@@ -243,9 +240,7 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
 
-#八度科技
 #https://raw.githubusercontent.com/chfchf0306/4.18clash/main/Class
-#https://raw.fastgit.org/chfchf0306/4.18clash/main/Class
   BaDu_all:
     type: http
     url: "https://raw.githubusercontent.com/chfchf0306/4.18clash/main/Class"     
@@ -259,7 +254,7 @@ proxy-providers:
   sspool_all:
     type: http
     #url: "https://sspool.herokuapp.com/clash/proxies"
-    url: "https://sspool.herokuapp.com/clash/proxies?c=US,CA,AU,CH,DE,GB,NL,FR&speed=1,200"
+    url: "https://sspool.herokuapp.com/clash/proxies?c=US,CA,DE,GB,NL,FR&speed=1,200"
     path: ./download/sspool_all.yaml
     health-check:
       enable: true
@@ -278,7 +273,6 @@ proxy-providers:
 #https://free.dswang.ga/clash/config
   dswang_all:
     type: http
-    #url: "https://free.dswang.ga/clash/proxies?nc=CN,HK,TW&speed=1,200"
     url: "https://free.dswang.ga/clash/proxies?c=US,CA,AU,CH,DE,GB,NL,FR&speed=1,200"    
     path: ./download/dswang_all.yaml
     health-check:
