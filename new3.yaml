@@ -204,7 +204,6 @@ proxy-groups:
       - sspool_all
       - du5
       - dswang_all
-      - all_51798
       - herokuapp_all
       - herokuapp2_all
       - all_kingfu
