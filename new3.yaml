@@ -230,7 +230,6 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
 
-#https://www.youtube.com/watch?v=HzMK4Nng9Kk&ab_channel=%E7%A7%91%E6%8A%80lion
   lion_all:
     type: http
     url: "https://raw.githubusercontent.com/lion12776/kejilion/main/clash"     
