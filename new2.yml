@@ -65,14 +65,12 @@ dns:
     - https://cloudflare-dns.com/dns-query
     - https://dns.adguard.com/dns-query
     - https://dnsforge.de/dns-quer
-    - https://dns.quad9.net/dns-query
   fallback:
     - tls://dns.google:853
     - https://dns.google/dns-query
     - https://cloudflare-dns.com/dns-query
     - https://dns.adguard.com/dns-query
     - https://dnsforge.de/dns-quer
-    - https://dns.quad9.net/dns-query
   fallback-filter:
     geoip: true
     ipcidr:
@@ -112,79 +110,79 @@ proxy-groups:
   - name: 🇨🇳 CN
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - cn
   - name: 🇯🇵 JP
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - jp
   - name: 🇸🇬 SG
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - sg
   - name: 🇺🇸 US
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - us
   - name: 🇨🇦 CA
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - ca
   - name: 🇷🇺 RU
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - ru
   - name: 🇦🇺 AU
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - au
   - name: 🇨🇭 CH
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - ch
   - name: 🇩🇪 DE
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - de
   - name: 🇫🇷 FR
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - fr
   - name: 🇬🇧 GB
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - gb
   - name: 🇳🇱 NL
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - nl
   - name: OTHERS
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
     use:
       - others
   - name: Low Ping
@@ -192,7 +190,7 @@ proxy-groups:
     use:
       - all
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 900
   - name: Load balancing
     type: load-balance
     use:
@@ -204,15 +202,128 @@ proxy-groups:
     use:
       - all
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
-rule-providers:
+    interval: 900
 
+proxy-providers:
+  au:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=AU"
+    path: proxypool.fly.dev/provider-au.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  cn:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=CN,HK,TW"
+    path: proxypool.fly.dev/provider-cn.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  us:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=US"
+    path: proxypool.fly.dev/provider-us.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  ca:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=CA"
+    path: proxypool.fly.dev/provider-ca.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  jp:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=JP"
+    path: proxypool.fly.dev/provider-jp.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  sg:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=SG"
+    path: proxypool.fly.dev/provider-sg.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  ru:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=RU"
+    path: proxypool.fly.dev/provider-ru.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  ch:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=CH"
+    path: proxypool.fly.dev/provider-ch.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  de:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=DE"
+    path: proxypool.fly.dev/provider-de.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  fr:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=FR"
+    path: proxypool.fly.dev/provider-fr.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  gb:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=GB"
+    path: proxypool.fly.dev/provider-gb.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  nl:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=NL"
+    path: proxypool.fly.dev/provider-nl.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  others:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU"
+    path: proxypool.fly.dev/provider-others.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  all:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies"
+    path: proxypool.fly.dev/provider.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+rule-providers:
   rejecter:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
     path: ./providers/rule/reject.yaml
-    interval: 86400
+    interval: 600
 
   ad-keyword:
     type: http
@@ -274,10 +385,10 @@ rules:
   - RULE-SET,ad-keyword,REJECT
   - RULE-SET,bloc,REJECT
   - RULE-SET,lancidr,DIRECT
-  - RULE-SET,foreign,Select2
-  - RULE-SET,telegramcidr,Select2
-  - RULE-SET,googled,Select2
-  - RULE-SET,filtered,Select2
+  - RULE-SET,foreign,Global Selection
+  - RULE-SET,telegramcidr,Global Selection
+  - RULE-SET,googled,Global Selection
+  - RULE-SET,filtered,Global Selection
   - RULE-SET,dire,DIRECT
   - GEOIP,IR,DIRECT
   - MATCH,Select2,Low Ping
