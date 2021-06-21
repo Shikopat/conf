@@ -334,16 +334,7 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204 
-      
-  herokuapp2_us:
-    type: http
-    url: "https://free886.herokuapp.com/clash/proxies?c=US"    
-    path: ./download/herokuapp2_us.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204 
-      
+   
   zyzmzyz:
     type: http
     url: "https://raw.githubusercontent.com/zyzmzyz/free-nodes/master/Clash.yml"    
