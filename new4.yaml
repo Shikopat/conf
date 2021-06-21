@@ -3,7 +3,7 @@ socks-port: 7891
 redir-port: 7892
 tproxy-port: 7893
 mixed-port: 7890
-allow-lan: true
+allow-lan: false
 bind-address: "*"
 mode: rule
 log-level: silent
@@ -60,15 +60,11 @@ dns:
     - 'stun.*.*'
     - 'stun.*.*.*'
   nameserver:
-    - tls://dns.google:853
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.adguard.com/dns-query
+    - 1.1.1.1
+    - 8.8.8.8
   fallback:
-    - tls://dns.google:853
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.adguard.com/dns-query
+    - 1.1.1.1
+    - 8.8.8.8
   fallback-filter:
     geoip: true
     ipcidr:
