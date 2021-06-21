@@ -103,6 +103,7 @@ proxy-groups:
       - lion_all
       - BaDu_all
       - freebaipiao
+      - us_kingfu
       
   - name: "Just4FaceBook"
     type: select
@@ -114,8 +115,8 @@ proxy-groups:
   - name: "Just4FaceBook_MySelected"
     type: select
     use:
-      - sspool_us
-      - dswang_us
+      - sspool_all
+      - dswang_all
       - azadnet
       - herokuapp_us
       - shoujiyanxishe
@@ -123,6 +124,7 @@ proxy-groups:
       - lion_all
       - BaDu_all
       - freebaipiao
+      - us_kingfu
 
   - name: "Final"
     type: select
@@ -215,14 +217,10 @@ proxy-groups:
   - name: "Just4FaceBook_tested"
     type: url-test
     use:
-      - sspool_us
-      - du5
-      - dswang_us
+      - sspool_all
+      - dswang_all
       - skywolf627
-      - herokuapp_us
-      - herokuapp2_us
       - us_kingfu
-      - us_hm2019721
     url: 'http://www.gstatic.com/generate_204'
     interval: 600 
        
