@@ -293,18 +293,7 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204 
-
-#https://proxy.51798.xyz/clash/config
-  all_51798:
-    type: http
-    #url: "https://proxy.51798.xyz/clash/proxies?nc=CN,HK,TW&speed=1,30"
-    url: "https://proxy.51798.xyz/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&type=vmess"    
-    path: ./download/all_51798.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204 
-      
+     
   us_51798:
     type: http
     #url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml"
