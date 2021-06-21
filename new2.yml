@@ -106,7 +106,6 @@ proxy-groups:
       - 🇬🇧 GB
       - 🇳🇱 NL
       - OTHERS
-
 - name: Select Node
     type: select
     use:
