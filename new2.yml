@@ -383,12 +383,6 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/direct.yaml"
     interval: 86400
 
-  iri:
-    type: http
-    behavior: classical
-    path: ./providers/rule/IR.yaml
-    url: "https://raw.githubusercontent.com/Shikopat/direct/main/ipcidr.yaml"
-    interval: 600
 
 rules:
   - RULE-SET,ad-keyword,REJECT
@@ -400,5 +394,4 @@ rules:
   - RULE-SET,filtered,Select2
   - RULE-SET,dire,DIRECT
   - GEOIP,IR,DIRECT
-  - RULE-SET,iri,DIRECT
   - MATCH,Select2,Low Ping
