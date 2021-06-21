@@ -78,7 +78,8 @@ dns:
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
- proxy-groups:
+proxies:
+proxy-groups:
   - name: "FuckWall"
     type: select
     proxies:
@@ -226,8 +227,7 @@ dns:
       - us_hm2019721
     url: 'http://www.gstatic.com/generate_204'
     interval: 600 
- 
-      
+       
 proxy-providers:
   "TestedPool":
     type: http
@@ -299,6 +299,17 @@ proxy-providers:
     type: http
     url: "https://free.dswang.ga/clash/proxies?c=US&speed=1,200"    
     path: ./download/dswang_us.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204 
+
+#https://proxy.51798.xyz/clash/config
+  all_51798:
+    type: http
+    #url: "https://proxy.51798.xyz/clash/proxies?nc=CN,HK,TW&speed=1,30"
+    url: "https://proxy.51798.xyz/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&type=vmess"    
+    path: ./download/all_51798.yaml
     health-check:
       enable: true
       interval: 600
@@ -412,6 +423,25 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204    
 
+#https://yugogo.xyz/?page_id=3
+  # all_yugogo:
+    # type: http
+    # #url: "https://www.yugogogogo.tk/clash/proxies?c=US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU&type=vmess"
+    # url: "https://www.yugogogogo.tk/clash/proxies"
+    # path: ./download/all_yugogo.yaml
+    # health-check:
+      # enable: true
+      # interval: 600
+      # url: http://www.gstatic.com/generate_204 
+      
+  # us_yugogo:
+    # type: http
+    # url: "https://www.yugogogogo.tk/clash/proxies?type=vmess&c=US"
+    # path: ./download/us_yugogo.yaml
+    # health-check:
+      # enable: true
+      # interval: 600
+      # url: http://www.gstatic.com/generate_204 
 
 rule-providers:
   rejecter:
