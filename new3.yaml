@@ -221,6 +221,7 @@ proxy-groups:
       - dswang_all
       - skywolf627
       - us_kingfu
+      - herokuapp2_us
     url: 'http://www.gstatic.com/generate_204'
     interval: 600 
        
