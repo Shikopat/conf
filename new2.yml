@@ -366,7 +366,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./providers/rule/Telegram.yaml
-    url: "https://cdn.jsdelivr.net/gh/Shikopat/other/Telegram.yaml"
+    url: "https://raw.githubusercontent.com/Shikopat/other/main/Telegram.yaml"
     interval: 86400
 
   lan:
