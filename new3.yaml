@@ -459,7 +459,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./providers/rule/LAN.yaml
-    url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/LAN.yaml"
+    url: "https://raw.githubusercontent.com/Shikopat/direct/main/LAN.yaml"
     interval: 86400
 
   dire:
