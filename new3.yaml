@@ -473,7 +473,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./providers/rule/IR.yaml
-    url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/ipcidr.yaml"
+    url: "https://raw.githubusercontent.com/Shikopat/direct/main/ipcidr.yaml"
     interval: 86400
 
 rules:
