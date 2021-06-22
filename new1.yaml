@@ -1376,7 +1376,7 @@ rules:
   - DOMAIN-KEYWORD,dwtrack,REJECT
   - DOMAIN-KEYWORD,guanggao,REJECT
   - DOMAIN-KEYWORD,omgmta,REJECT
-  - DOMAIN-KEYWORD,omniture,REJECTREJECT
+  - DOMAIN-KEYWORD,omniture,REJECT
   - DOMAIN-KEYWORD,openx,REJECT
   - DOMAIN-KEYWORD,partnerad,REJECT
   - DOMAIN-KEYWORD,pingfore,REJECT
@@ -1390,7 +1390,7 @@ rules:
   - DOMAIN-SUFFIX,ads.google.com,REJECT
   - DOMAIN-SUFFIX,adservice.google.com,REJECT
   - DOMAIN-SUFFIX,afd.l.google.com,REJECT
-  - DOMAIN-SUFFIX,badad.googleplex.comREJECT
+  - DOMAIN-SUFFIX,badad.googleplex.com,REJECT
   - DOMAIN-SUFFIX,csi.gstatic.com,REJECT
   - DOMAIN-SUFFIX,doubleclick.com,REJECT
   - DOMAIN-SUFFIX,doubleclick.net,REJECT
