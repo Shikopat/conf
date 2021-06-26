@@ -93,7 +93,7 @@ proxy-groups:
   - adsl.cloud
   - j01.best
   url: https://cp.cloudflare.com/generate_204
-  interval: '300'
+  interval: '600'
   tolerance: '150'
 - name: Auto - load-balance
   type: load-balance
@@ -104,7 +104,7 @@ proxy-groups:
   - adsl.cloud
   - j01.best
   url: https://cp.cloudflare.com/generate_204
-  interval: '300'
+  interval: '600'
   tolerance: '150'
 - name: Auto - Fallback
   type: fallback  
@@ -115,38 +115,40 @@ proxy-groups:
   - adsl.cloud
   - j01.best
   url: https://cp.cloudflare.com/generate_204
-  interval: '300'
+  interval: '600'
   tolerance: '150'
 - name: Yahaha-NPO
   type: url-test
   use:
   - Yahaha-NPO
   url: https://cp.cloudflare.com/generate_204
-  interval: '300'
+  interval: '600'
   tolerance: '150'
 - name: Sakura
   type: url-test
   use:
   - Sakura
   url: https://cp.cloudflare.com/generate_204
-  interval: '300'
+  interval: '600'
   tolerance: '150'
 - name: getfree.cloud
   type: url-test
   use:
   - getfree.cloud
   url: https://cp.cloudflare.com/generate_204
-  interval: '300'
+  interval: '600'
   tolerance: '150'
 - name: adsl.cloud
   type: url-test
   use:
   - adsl.cloud
   url: https://cp.cloudflare.com/generate_204
+  interval: '600'
+  tolerance: '150'
 - name: j01.best
   type: url-test
   use:
-   - j01.best
+  - j01.best
   url: https://cp.cloudflare.com/generate_204
   
 rule-providers:
@@ -155,14 +157,14 @@ rule-providers:
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
     path: ./providers/rule/reject.yaml
-    interval: 600
+    interval: 86400
 
   ad-keyword:
     type: http
     behavior: classical
     path: ./providers/rule/common-ad-keyword.yaml
     url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/common-ad-keyword.yaml"
-    interval: 600
+    interval: 86400
 
   googled:
     type: http
