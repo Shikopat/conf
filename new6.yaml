@@ -150,6 +150,8 @@ proxy-groups:
   use:
   - j01.best
   url: https://cp.cloudflare.com/generate_204
+  interval: '600'
+  tolerance: '150'
   
 rule-providers:
   rejecter:
