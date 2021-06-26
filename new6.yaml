@@ -223,4 +223,4 @@ rules:
   - RULE-SET,filtered,🔰 SELECT
   - RULE-SET,dire,DIRECT
   - GEOIP,IR,DIRECT
-  - MATCH,Select2,Low Ping
+  - MATCH,🔰 SELECT,♻️ BESTPING
