@@ -155,7 +155,7 @@ rule-providers:
     type: http
     behavior: domain
     url: "https://github.com/privacy-protection-tools/anti-AD/raw/master/anti-ad-clash.yaml"
-    path: ./ruleset/anti-ad-clash.yaml
+    path: ./providers/rule/anti-ad-clash.yaml
     interval: 86400
 
   ad-keyword:
