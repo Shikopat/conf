@@ -150,11 +150,19 @@ proxy-groups:
   url: https://cp.cloudflare.com/generate_204
   
 rule-providers:
-  rejecter:
+
+  blook:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
     path: ./providers/rule/reject.yaml
+    interval: 86400
+    
+  anti-ad-clash:
+    type: http
+    behavior: domain
+    url: "https://github.com/privacy-protection-tools/anti-AD/raw/master/anti-ad-clash.yaml"
+    path: ./ruleset/anti-ad-clash.yaml
     interval: 86400
 
   ad-keyword:
@@ -205,6 +213,7 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
     path: ./providers/rule/lancidr.yaml
     interval: 86400
+    
   dire:
     type: http
     behavior: classical
@@ -217,6 +226,7 @@ rule-providers:
   - DOMAIN-SUFFIX,ir,DIRECT
   - RULE-SET,ad-keyword,REJECT
   - RULE-SET,bloc,REJECT
+  - RULE-SET,blook,REJECT
   - RULE-SET,anti-ad-clash,REJECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,dire,DIRECT
