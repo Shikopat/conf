@@ -151,13 +151,6 @@ proxy-groups:
   
 rule-providers:
 
-  blook:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
-    path: ./providers/rule/reject.yaml
-    interval: 86400
-    
   anti-ad-clash:
     type: http
     behavior: domain
@@ -226,7 +219,6 @@ rule-providers:
   - DOMAIN-SUFFIX,ir,DIRECT
   - RULE-SET,ad-keyword,REJECT
   - RULE-SET,bloc,REJECT
-  - RULE-SET,blook,REJECT
   - RULE-SET,anti-ad-clash,REJECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,dire,DIRECT
