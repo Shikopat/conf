@@ -151,13 +151,6 @@ proxy-groups:
   
 rule-providers:
 
-  anti-ads:
-    type: http
-    behavior: domain
-    url: "https://anti-ad.net/clash.yaml"
-    path: ./providers/rule/anti-ads.yaml
-    interval: 86400
-
   ad-keyword:
     type: http
     behavior: classical
@@ -219,7 +212,6 @@ rule-providers:
   - DOMAIN-SUFFIX,ir,DIRECT
   - RULE-SET,ad-keyword,REJECT
   - RULE-SET,bloc,REJECT
-  - RULE-SET,anti-ads,REJECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,dire,DIRECT
   - RULE-SET,foreign,🔰 SELECT
