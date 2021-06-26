@@ -1,0 +1,315 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+tproxy-port: 7893
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: silent
+ipv6: false
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 1.1.1.1
+    - 1.0.0.1
+    - 8.8.8.8
+    - 8.8.4.4
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - 'swscan.apple.com'
+    - 'mesu.apple.com'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time.*.edu.ir'
+    - 'time.*.apple.com'
+    - 'time1.*.com'
+    - 'time2.*.com'
+    - 'time3.*.com'
+    - 'time4.*.com'
+    - 'time5.*.com'
+    - 'time6.*.com'
+    - 'time7.*.com'
+    - 'ntp.*.com'
+    - 'ntp.*.com'
+    - 'ntp1.*.com'
+    - 'ntp2.*.com'
+    - 'ntp3.*.com'
+    - 'ntp4.*.com'
+    - 'ntp5.*.com'
+    - 'ntp6.*.com'
+    - 'ntp7.*.com'
+    - '*.time.ir'
+    - '*.ntp.org.ir'
+    - '+.pool.ntp.org'
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - 'xbox.*.microsoft.com'
+    - '+.xboxlive.com'
+    - 'localhost.ptlogin2.qq.com'
+    - 'proxy.golang.org'
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+  nameserver:
+    - tls://dns.google:853
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+  fallback:
+    - tls://dns.google:853
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+proxy-providers:
+  Yahaha-NPO:
+    type: http
+    path: "./proxy_provider/Yahaha-NPO.yaml"
+    url: https://api.10101.io/sub?target=clash&url=http%3a%2f%2fsub.yahahanpo.top%2flink%2fMPsna0K3Q1JBfwNf%3fmu%3d1&list=true&exclude=耗尽|维护
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  Sakura:
+    type: http
+    path: "./proxy_provider/Sakura.yaml"
+    url: https://api.10101.io/sub?target=clash&url=https%3A%2F%2Fsubscribe.connect-node.xyz%2Flink%2FeYXuRuK1xeeD2Z2H%3Fclash%3D1&exclude=%E4%B8%8B%E8%BD%BD&emoji=true&list=true
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  getfree.cloud:
+    type: http
+    path: "./proxy_provider/getfree.cloud.yaml"
+    url: https://api.10101.io/sub?target=clash&url=https%3a%2f%2frss.getfree.win%2flink%2f8FF08IStcxG8RIRe%3fsub%3d1&list=true&exclude=id|adsl|过期|剩余|时间|回家|home|官网
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  adsl.cloud:
+    type: http
+    path: "./proxy_provider/adsl.cloud.yaml"
+    url: https://api.10101.io/sub?target=clash&url=https%3A%2F%2Frss.epon.cloud%2Flink%2FVasve5Pu5e6UPZWp%3Fsub%3D1&list=true&exclude=id|adsl|过期|剩余|时间|回家|home|官网
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  j01.best:
+    type: http
+    path: "./proxy_provider/j01.best.yaml"
+    url: https://api.10101.io/sub?target=clash&url=https%3A%2F%2Fj03.space%2Flink%2FjlwhXsGtuj9NJV9J%3Fclash%3D2&insert=false&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+proxy-groups:
+- name: 🔰 SELECT
+  type: select
+  proxies:
+  - Yahaha-NPO
+  - Sakura
+  - getfree.cloud
+  - adsl.cloud
+  - j01.best
+- name: ♻️ BESTPING
+  type: url-test
+  use:
+  - Yahaha-NPO
+  - Sakura
+  - getfree.cloud
+  - adsl.cloud
+  - j01.best
+  url: https://cp.cloudflare.com/generate_204
+  interval: '300'
+  tolerance: '150'
+- name: Auto - load-balance
+  type: load-balance
+  use:
+  - Yahaha-NPO
+  - Sakura
+  - getfree.cloud
+  - adsl.cloud
+  - j01.best
+  url: https://cp.cloudflare.com/generate_204
+  interval: '300'
+  tolerance: '150'
+- name: Auto - Fallback
+  type: fallback  
+  use:
+  - Yahaha-NPO
+  - Sakura
+  - getfree.cloud
+  - adsl.cloud
+  - j01.best
+  url: https://cp.cloudflare.com/generate_204
+  interval: '300'
+  tolerance: '150'
+- name: Yahaha-NPO
+  type: url-test
+  use:
+  - Yahaha-NPO
+  url: https://cp.cloudflare.com/generate_204
+  interval: '600'
+  tolerance: '150'
+- name: Sakura
+  type: url-test
+  use:
+  - Sakura
+  url: https://cp.cloudflare.com/generate_204
+  interval: '600'
+  tolerance: '150'
+- name: getfree.cloud
+  type: url-test
+  use:
+  - getfree.cloud
+  url: https://cp.cloudflare.com/generate_204
+  interval: '600'
+  tolerance: '150'
+- name: adsl.cloud
+  type: url-test
+  use:
+  - adsl.cloud
+  url: https://cp.cloudflare.com/generate_204
+- name: j01.best
+  type: url-test
+  use:
+   - j01.best
+  url: https://cp.cloudflare.com/generate_204
+rule-providers:
+  rejecter:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./providers/rule/reject.yaml
+    interval: 3600
+
+  ad-keyword:
+    type: http
+    behavior: classical
+    path: ./providers/rule/common-ad-keyword.yaml
+    url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/common-ad-keyword.yaml"
+    interval: 3600
+
+  googled:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./providers/rule/google.yaml
+    interval: 3600
+
+  bloc:
+    type: http
+    behavior: classical
+    path: ./providers/rule/block3.yaml
+    url: "https://raw.githubusercontent.com/Shikopat/block/main/block2.yaml"
+    interval: 3600
+
+  foreign:
+    type: http
+    behavior: classical
+    path: ./providers/rule/foreign.yaml
+    url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/foreign.yaml"
+    interval: 3600
+
+  filtered:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./providers/rule/proxy.yaml
+    interval: 3600
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./providers/rule/telegramcidr.yaml
+    interval: 3600
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./providers/rule/lancidr.yaml
+    interval: 3600
+  dire:
+    type: http
+    behavior: classical
+    path: ./providers/rule/dire.yaml
+    url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/direct.yaml"
+    interval: 3600
+    rules:
+  - GEOIP,IR,DIRECT
+  - DOMAIN-SUFFIX,ir,DIRECT
+  - RULE-SET,ad-keyword,REJECT
+  - RULE-SET,bloc,REJECT
+  - RULE-SET,anti-ad-clash,REJECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,dire,DIRECT
+  - RULE-SET,foreign,🔰 SELECT
+  - RULE-SET,telegramcidr,🔰 SELECT
+  - RULE-SET,googled,🔰 SELECT
+  - RULE-SET,filtered,🔰 SELECT
+  - DOMAIN-KEYWORD,github,🔰 SELECT
+  - DOMAIN-SUFFIX,ghproxy.com,🔰 SELECT
+  - DOMAIN-KEYWORD,admarvel,REJECT
+  - DOMAIN-KEYWORD,admaster,REJECT
+  - DOMAIN-KEYWORD,adsage,REJECT
+  - DOMAIN-KEYWORD,adsensor,REJECT
+  - DOMAIN-KEYWORD,adservice,REJECT
+  - DOMAIN-KEYWORD,adsmogo,REJECT
+  - DOMAIN-KEYWORD,adsrvmedia,REJECT
+  - DOMAIN-KEYWORD,adsserving,REJECT
+  - DOMAIN-KEYWORD,adsystem,REJECT
+  - DOMAIN-KEYWORD,adwords,REJECT
+  - DOMAIN-KEYWORD,analysis,REJECT
+  - DOMAIN-KEYWORD,applovin,REJECT
+  - DOMAIN-KEYWORD,appsflyer,REJECT
+  - DOMAIN-KEYWORD,domob,REJECT
+  - DOMAIN-KEYWORD,duomeng,REJECT
+  - DOMAIN-KEYWORD,dwtrack,REJECT
+  - DOMAIN-KEYWORD,guanggao,REJECT
+  - DOMAIN-KEYWORD,omgmta,REJECT
+  - DOMAIN-KEYWORD,omniture,REJECT
+  - DOMAIN-KEYWORD,openx,REJECT
+  - DOMAIN-KEYWORD,partnerad,REJECT
+  - DOMAIN-KEYWORD,pingfore,REJECT
+  - DOMAIN-KEYWORD,socdm,REJECT
+  - DOMAIN-KEYWORD,supersonicads,REJECT
+  - DOMAIN-KEYWORD,usage,REJECT
+  - DOMAIN-KEYWORD,wlmonitor,REJECT
+  - DOMAIN-KEYWORD,zjtoolbar,REJECT
+  - DOMAIN-SUFFIX,admob.com,REJECT
+  - DOMAIN-SUFFIX,ads.gmodules.com,REJECT
+  - DOMAIN-SUFFIX,ads.google.com,REJECT
+  - DOMAIN-SUFFIX,adservice.google.com,REJECT
+  - DOMAIN-SUFFIX,afd.l.google.com,REJECT
+  - DOMAIN-SUFFIX,badad.googleplex.com,REJECT
+  - DOMAIN-SUFFIX,csi.gstatic.com,REJECT
+  - DOMAIN-SUFFIX,doubleclick.com,REJECT
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
+  - DOMAIN-SUFFIX,google-analytics.com,REJECT
+  - DOMAIN-SUFFIX,googleadservices.com,REJECT
+  - DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+  - DOMAIN-SUFFIX,googlecommerce.com,REJECT
+  - DOMAIN-SUFFIX,googlesyndication.com,REJECT
+  - DOMAIN-SUFFIX,mobileads.google.com,REJECT
+  - DOMAIN-SUFFIX,pagead-tpc.l.google.com,REJECT
+  - DOMAIN-SUFFIX,pagead.google.com,REJECT
+  - DOMAIN-SUFFIX,pagead.l.google.com,REJECT
+  - MATCH,🔰 SELECT,♻️ BESTPING
