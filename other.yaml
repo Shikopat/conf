@@ -1,0 +1,392 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+tproxy-port: 7893
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: silent
+ipv6: false
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 1.1.1.1
+    - 1.0.0.1
+    - 8.8.8.8
+    - 8.8.4.4
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - 'swscan.apple.com'
+    - 'mesu.apple.com'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time.*.edu.ir'
+    - 'time.*.apple.com'
+    - 'time1.*.com'
+    - 'time2.*.com'
+    - 'time3.*.com'
+    - 'time4.*.com'
+    - 'time5.*.com'
+    - 'time6.*.com'
+    - 'time7.*.com'
+    - 'ntp.*.com'
+    - 'ntp.*.com'
+    - 'ntp1.*.com'
+    - 'ntp2.*.com'
+    - 'ntp3.*.com'
+    - 'ntp4.*.com'
+    - 'ntp5.*.com'
+    - 'ntp6.*.com'
+    - 'ntp7.*.com'
+    - '*.time.ir'
+    - '*.ntp.org.ir'
+    - '+.pool.ntp.org'
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - 'xbox.*.microsoft.com'
+    - '+.xboxlive.com'
+    - 'localhost.ptlogin2.qq.com'
+    - 'proxy.golang.org'
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+  nameserver:
+    - tls://dns.google:853
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.adguard.com/dns-query
+  fallback:
+    - tls://dns.google:853
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.adguard.com/dns-query
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+proxies:
+
+proxy-groups:
+  - name: Global Selection
+    type: select
+    proxies:
+      - Low Ping
+      - Select2
+      - Select Node
+      - Failover
+      - Load balancing
+  - name: Select2
+    type: select
+    proxies:
+      - 🇨🇳 CN
+      - 🇯🇵 JP
+      - 🇸🇬 SG
+      - 🇺🇸 US
+      - 🇨🇦 CA
+      - 🇷🇺 RU
+      - 🇦🇺 AU
+      - 🇨🇭 CH
+      - 🇩🇪 DE
+      - 🇫🇷 FR
+      - 🇬🇧 GB
+      - 🇳🇱 NL
+      - OTHERS
+  - name: Select Node
+    type: select
+    use:
+      - all
+  - name: 🇨🇳 CN
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - cn
+  - name: 🇯🇵 JP
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - jp
+  - name: 🇸🇬 SG
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - sg
+  - name: 🇺🇸 US
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - us
+  - name: 🇨🇦 CA
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - ca
+  - name: 🇷🇺 RU
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - ru
+  - name: 🇦🇺 AU
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - au
+  - name: 🇨🇭 CH
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - ch
+  - name: 🇩🇪 DE
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - de
+  - name: 🇫🇷 FR
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - fr
+  - name: 🇬🇧 GB
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - gb
+  - name: 🇳🇱 NL
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - nl
+  - name: OTHERS
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - others
+  - name: Low Ping
+    type: url-test
+    use:
+      - all
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+  - name: Load balancing
+    type: load-balance
+    use:
+      - all
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: Failover
+    type: fallback
+    use:
+      - all
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+
+proxy-providers:
+  au:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=AU"
+    path: proxypool.fly.dev/provider-au.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  cn:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=CN,HK,TW"
+    path: proxypool.fly.dev/provider-cn.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  us:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=US"
+    path: proxypool.fly.dev/provider-us.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  ca:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=CA"
+    path: proxypool.fly.dev/provider-ca.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  jp:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=JP"
+    path: proxypool.fly.dev/provider-jp.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  sg:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=SG"
+    path: proxypool.fly.dev/provider-sg.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  ru:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=RU"
+    path: proxypool.fly.dev/provider-ru.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  ch:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=CH"
+    path: proxypool.fly.dev/provider-ch.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  de:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=DE"
+    path: proxypool.fly.dev/provider-de.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  fr:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=FR"
+    path: proxypool.fly.dev/provider-fr.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  gb:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=GB"
+    path: proxypool.fly.dev/provider-gb.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  nl:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?c=NL"
+    path: proxypool.fly.dev/provider-nl.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  others:
+    type: http
+    url: "https://raw.githubusercontent.com/zjr13808836946/zjr_clash/a53b25c957dddcde7f298f9018353d12cd5f278c/v2ray_t_clash"
+    path: proxypool.fly.dev/provider-others.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+  all:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies"
+    path: proxypool.fly.dev/provider.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
+rule-providers:
+  rejecter:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./providers/rule/reject.yaml
+    interval: 3600
+
+  ad-keyword:
+    type: http
+    behavior: classical
+    path: ./providers/rule/common-ad-keyword.yaml
+    url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/common-ad-keyword.yaml"
+    interval: 3600
+
+  googled:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./providers/rule/google.yaml
+    interval: 3600
+
+  bloc:
+    type: http
+    behavior: classical
+    path: ./providers/rule/block3.yaml
+    url: "https://raw.githubusercontent.com/Shikopat/block/main/block2.yaml"
+    interval: 3600
+
+  foreign:
+    type: http
+    behavior: classical
+    path: ./providers/rule/foreign.yaml
+    url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/foreign.yaml"
+    interval: 3600
+
+  filtered:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./providers/rule/proxy.yaml
+    interval: 3600
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./providers/rule/telegramcidr.yaml
+    interval: 3600
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./providers/rule/lancidr.yaml
+    interval: 3600
+
+  dire:
+    type: http
+    behavior: classical
+    path: ./providers/rule/dire.yaml
+    url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/direct.yaml"
+    interval: 3600
+
+rules:
+  - RULE-SET,ad-keyword,REJECT
+  - RULE-SET,bloc,REJECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,foreign,Global Selection
+  - RULE-SET,telegramcidr,Global Selection
+  - RULE-SET,googled,Global Selection
+  - RULE-SET,filtered,Global Selection
+  - RULE-SET,dire,DIRECT
+  - GEOIP,IR,DIRECT
+  - MATCH,Select2,Low Ping
