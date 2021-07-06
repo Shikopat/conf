@@ -55,7 +55,6 @@ dns:
     - '+.stun.playstation.net'
     - 'xbox.*.microsoft.com'
     - '+.xboxlive.com'
-    - 'localhost.ptlogin2.qq.com'
     - 'proxy.golang.org'
     - 'stun.*.*'
     - 'stun.*.*.*'
