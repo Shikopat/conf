@@ -827,7 +827,7 @@ proxy-groups:
   - name: ♻️ BESTPING
     type: url-test
     url: https://www.google.com
-    interval: 300
+    interval: 900
     proxies:
       - Surfshark BE 🇧🇪 Brussels 1
       - Surfshark BE 🇧🇪 Brussels 2
