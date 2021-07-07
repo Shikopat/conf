@@ -2,21 +2,19 @@ port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
-log-level: silent
+log-level: info
 external-controller: :9090
 dns:
   enable: true
   ipv6: false
   enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
+  fake-ip-range: 127.8.0.1/16
   nameserver:
-    - tls://dns.google:853
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
+    - 1.1.1.1
+    - 8.8.8.8
   fallback:
-    - tls://dns.google:853
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
+    - 1.1.1.1
+    - 8.8.8.8
 proxies:
   - {name: Surfshark BE 🇧🇪 Brussels 1, server: 91.90.123.115, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
   - {name: Surfshark BE 🇧🇪 Brussels 2, server: 91.90.123.173, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
@@ -1156,54 +1154,63 @@ proxy-groups:
       - 213123 2
       - weqwe 2
       - weqwe 3
+  - name: ⛔Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: ⛔BLOCK
+    type: select
+    proxies:
+      - REJECT
 rules:
   - GEOIP,IR,DIRECT
-  - DOMAIN-SUFFIX,ir,DIRECT
+  - DOMAIN-SUFFIX,ir,⛔Direct
   - DOMAIN-KEYWORD,github,🔰 SELECT
   - DOMAIN-SUFFIX,ghproxy.com,🔰 SELECT
-  - DOMAIN-KEYWORD,admarvel,REJECT
-  - DOMAIN-KEYWORD,admaster,REJECT
-  - DOMAIN-KEYWORD,adsage,REJECT
-  - DOMAIN-KEYWORD,adsensor,REJECT
-  - DOMAIN-KEYWORD,adservice,REJECT
-  - DOMAIN-KEYWORD,adsmogo,REJECT
-  - DOMAIN-KEYWORD,adsrvmedia,REJECT
-  - DOMAIN-KEYWORD,adsserving,REJECT
-  - DOMAIN-KEYWORD,adsystem,REJECT
-  - DOMAIN-KEYWORD,adwords,REJECT
-  - DOMAIN-KEYWORD,analysis,REJECT
-  - DOMAIN-KEYWORD,applovin,REJECT
-  - DOMAIN-KEYWORD,appsflyer,REJECT
-  - DOMAIN-KEYWORD,domob,REJECT
-  - DOMAIN-KEYWORD,duomeng,REJECT
-  - DOMAIN-KEYWORD,dwtrack,REJECT
-  - DOMAIN-KEYWORD,guanggao,REJECT
-  - DOMAIN-KEYWORD,omgmta,REJECT
-  - DOMAIN-KEYWORD,omniture,REJECT
-  - DOMAIN-KEYWORD,openx,REJECT
-  - DOMAIN-KEYWORD,partnerad,REJECT
-  - DOMAIN-KEYWORD,pingfore,REJECT
-  - DOMAIN-KEYWORD,socdm,REJECT
-  - DOMAIN-KEYWORD,supersonicads,REJECT
-  - DOMAIN-KEYWORD,usage,REJECT
-  - DOMAIN-KEYWORD,wlmonitor,REJECT
-  - DOMAIN-KEYWORD,zjtoolbar,REJECT
-  - DOMAIN-SUFFIX,admob.com,REJECT
-  - DOMAIN-SUFFIX,ads.gmodules.com,REJECT
-  - DOMAIN-SUFFIX,ads.google.com,REJECT
-  - DOMAIN-SUFFIX,adservice.google.com,REJECT
-  - DOMAIN-SUFFIX,afd.l.google.com,REJECT
-  - DOMAIN-SUFFIX,badad.googleplex.com,REJECT
-  - DOMAIN-SUFFIX,csi.gstatic.com,REJECT
-  - DOMAIN-SUFFIX,doubleclick.com,REJECT
-  - DOMAIN-SUFFIX,doubleclick.net,REJECT
-  - DOMAIN-SUFFIX,google-analytics.com,REJECT
-  - DOMAIN-SUFFIX,googleadservices.com,REJECT
-  - DOMAIN-SUFFIX,googleadsserving.cn,REJECT
-  - DOMAIN-SUFFIX,googlecommerce.com,REJECT
-  - DOMAIN-SUFFIX,googlesyndication.com,REJECT
-  - DOMAIN-SUFFIX,mobileads.google.com,REJECT
-  - DOMAIN-SUFFIX,pagead-tpc.l.google.com,REJECT
-  - DOMAIN-SUFFIX,pagead.google.com,REJECT
-  - DOMAIN-SUFFIX,pagead.l.google.com,REJECT
+  - DOMAIN-KEYWORD,admarvel,⛔BLOCK
+  - DOMAIN-KEYWORD,admaster,⛔BLOCK
+  - DOMAIN-KEYWORD,adsage,⛔BLOCK
+  - DOMAIN-KEYWORD,adsensor,⛔BLOCK
+  - DOMAIN-KEYWORD,adservice,⛔BLOCK
+  - DOMAIN-KEYWORD,adsmogo,⛔BLOCK
+  - DOMAIN-KEYWORD,adsrvmedia,⛔BLOCK
+  - DOMAIN-KEYWORD,adsserving,⛔BLOCK
+  - DOMAIN-KEYWORD,adsystem,⛔BLOCK
+  - DOMAIN-KEYWORD,adwords,⛔BLOCK
+  - DOMAIN-KEYWORD,analysis,⛔BLOCK
+  - DOMAIN-KEYWORD,applovin,⛔BLOCK
+  - DOMAIN-KEYWORD,appsflyer,⛔BLOCK
+  - DOMAIN-KEYWORD,domob,⛔BLOCK
+  - DOMAIN-KEYWORD,duomeng,⛔BLOCK
+  - DOMAIN-KEYWORD,dwtrack,⛔BLOCK
+  - DOMAIN-KEYWORD,guanggao,⛔BLOCK
+  - DOMAIN-KEYWORD,omgmta,⛔BLOCK
+  - DOMAIN-KEYWORD,omniture,⛔BLOCK
+  - DOMAIN-KEYWORD,openx,⛔BLOCK
+  - DOMAIN-KEYWORD,partnerad,⛔BLOCK
+  - DOMAIN-KEYWORD,pingfore,⛔BLOCK
+  - DOMAIN-KEYWORD,socdm,⛔BLOCK
+  - DOMAIN-KEYWORD,supersonicads,⛔BLOCK
+  - DOMAIN-KEYWORD,usage,⛔BLOCK
+  - DOMAIN-KEYWORD,wlmonitor,⛔BLOCK
+  - DOMAIN-KEYWORD,zjtoolbar,⛔BLOCK
+  - DOMAIN-SUFFIX,admob.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads.gmodules.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads.google.com,⛔BLOCK
+  - DOMAIN-SUFFIX,adservice.google.com,⛔BLOCK
+  - DOMAIN-SUFFIX,afd.l.google.com,⛔BLOCK
+  - DOMAIN-SUFFIX,badad.googleplex.com,⛔BLOCK
+  - DOMAIN-SUFFIX,csi.gstatic.com,⛔BLOCK
+  - DOMAIN-SUFFIX,doubleclick.com,⛔BLOCK
+  - DOMAIN-SUFFIX,doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,google-analytics.com,⛔BLOCK
+  - DOMAIN-SUFFIX,googleadservices.com,⛔BLOCK
+  - DOMAIN-SUFFIX,googleadsserving.cn,⛔BLOCK
+  - DOMAIN-SUFFIX,googlecommerce.com,⛔BLOCK
+  - DOMAIN-SUFFIX,googlesyndication.com,⛔BLOCK
+  - DOMAIN-SUFFIX,mobileads.google.com,⛔BLOCK
+  - DOMAIN-SUFFIX,pagead-tpc.l.google.com,⛔BLOCK
+  - DOMAIN-SUFFIX,pagead.google.com,⛔BLOCK
+  - DOMAIN-SUFFIX,pagead.l.google.com,⛔BLOCK
   - MATCH,🔰 SELECT,♻️ BESTPING
