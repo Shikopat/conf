@@ -1213,4 +1213,33 @@ rules:
   - DOMAIN-SUFFIX,pagead-tpc.l.google.com,⛔BLOCK
   - DOMAIN-SUFFIX,pagead.google.com,⛔BLOCK
   - DOMAIN-SUFFIX,pagead.l.google.com,⛔BLOCK
+  - DOMAIN-SUFFIX,manifest.googlevideo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,innovid.com,⛔BLOCK
+   - DOMAIN-SUFFIX,s.innovid.com,⛔BLOCK
+  - DOMAIN-SUFFIX,dts.innovid.com,⛔BLOCK
+  - DOMAIN-SUFFIX,pixel.moatads.com,⛔BLOCK
+  - DOMAIN-SUFFIX,secure-ds.serving-sys.com,⛔BLOCK
+  - DOMAIN-SUFFIX,rtd.tubemogul.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ad.youtube.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads.youtube.com,⛔BLOCK
+  - DOMAIN-SUFFIX,s.youtube.com,⛔BLOCK
+  - DOMAIN-SUFFIX,s.ytimg.com,⛔BLOCK
+  - DOMAIN-SUFFIX,2mdn.net,⛔BLOCK
+  - DOMAIN-SUFFIX,s0.2mdn.net,⛔BLOCK
+  - DOMAIN-SUFFIX,files.adform.net,⛔BLOCK
+  - DOMAIN-SUFFIX,doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,ad.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,ads.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,ad-g.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,fls.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,g.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,googleads.g.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,googleads4.g.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,pubads.g.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,securepubads.g.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,stats.g.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,pagead.l.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,ad.mo.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,static.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,fwmrm.net,⛔BLOCK
   - MATCH,🔰 SELECT,♻️ BESTPING
