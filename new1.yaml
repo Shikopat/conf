@@ -1275,6 +1275,13 @@ rule-providers:
     url: "https://anti-ad.net/clash.yaml"
     path: ./providers/rule/anti-ad-clash.yaml
     interval: 86400
+    
+  goovid:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh//Shikopat/block/gvid.yaml"
+    path: ./providers/rule/gvid.yaml
+    interval: 86400
 
 rules:
   - GEOIP,IR,DIRECT
@@ -1282,6 +1289,7 @@ rules:
   - RULE-SET,anti-ad-clash,REJECT
   - RULE-SET,ad-keyword,REJECT
   - RULE-SET,bloc,REJECT
+  - RULE-SET,goovid,REJECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,foreign,🔰 SELECT
   - RULE-SET,telegramcidr,🔰 SELECT
