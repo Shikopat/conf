@@ -472,10 +472,10 @@ proxies:
   - {name: yidla 2, server: 91.201.65.42, port: 27104, type: vmess, uuid: 1889fa38-619f-4ec3-bdf5-ace28ff82362, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: yidla 3, server: 91.201.65.42, port: 27104, type: vmess, uuid: 1889fa38-619f-4ec3-bdf5-ace28ff82362, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
-  - name: 🔰 SELECT (@BN_CHANLL)
+  - name: 🔰 SELECT
     type: select
     proxies:
-      - ♻️ BESTPING (@BN_CHANLL)
+      - ♻️ BESTPING
       - AE🇦🇪+Dubai_SURF
       - AE🇦🇪Dubai_SURF
       - AR🇦🇷+Buenos+Aires_SURF
@@ -931,7 +931,7 @@ proxy-groups:
       - yidla
       - yidla 2
       - yidla 3
-  - name: ♻️ BESTPING (@BN_CHANLL)
+  - name: ♻️ BESTPING
     type: url-test
     url: https://www.google.com
     interval: 900
