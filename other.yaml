@@ -379,9 +379,17 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/direct.yaml"
     interval: 3600
 
+  goovid:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh//Shikopat/block/gvid.yaml"
+    path: ./providers/rule/gvid.yaml
+    interval: 3600
+
 rules:
   - RULE-SET,ad-keyword,REJECT
   - RULE-SET,bloc,REJECT
+  - RULE-SET,goovid,REJECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,foreign,Global Selection
   - RULE-SET,telegramcidr,Global Selection
