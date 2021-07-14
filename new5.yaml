@@ -1163,9 +1163,73 @@ proxy-groups:
     type: select
     proxies:
       - REJECT
+
+rule-providers:
+  rejecter:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./providers/rule/reject.yaml
+    interval: 3600
+
+  ad-keyword:
+    type: http
+    behavior: classical
+    path: ./providers/rule/common-ad-keyword.yaml
+    url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/common-ad-keyword.yaml"
+    interval: 3600
+
+  bloc:
+    type: http
+    behavior: classical
+    path: ./providers/rule/block3.yaml
+    url: "https://raw.githubusercontent.com/Shikopat/block/main/block2.yaml"
+    interval: 3600
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./providers/rule/telegramcidr.yaml
+    interval: 3600
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./providers/rule/lancidr.yaml
+    interval: 3600
+
+  dire:
+    type: http
+    behavior: classical
+    path: ./providers/rule/dire.yaml
+    url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/direct.yaml"
+    interval: 3600
+
+  goovid:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh//Shikopat/block/gvid.txt"
+    path: ./providers/rule/gvid.yaml
+    interval: 3600
+
+  anti-ad-clash:
+    type: http
+    behavior: domain
+    url: "https://anti-ad.net/clash.yaml"
+    path: ./providers/rule/anti-ad-clash.yaml
+    interval: 3600
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,⛔Direct
+  - RULE-SET,ad-keyword,REJECT
+  - RULE-SET,bloc,REJECT
+  - RULE-SET,goovid,REJECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,telegramcidr,🔰 SELECT
+  - RULE-SET,dire,DIRECT
+  - RULE-SET,anti-ad-clash,REJECT
   - DOMAIN-KEYWORD,github,🔰 SELECT
   - DOMAIN-SUFFIX,ghproxy.com,🔰 SELECT
   - DOMAIN-KEYWORD,admarvel,⛔BLOCK
