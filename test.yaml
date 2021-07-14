@@ -22,6 +22,9 @@ dns:
   nameserver:
     - 8.8.8.8
     - 1.1.1.1
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
 
 proxy-groups:
   - name: "FuckWall"
