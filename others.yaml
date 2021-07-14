@@ -1400,8 +1400,8 @@ proxy-groups:
     proxies:
       - DIRECT
 rules:
-  - GEOIP,IR,DIRECT
-  - DOMAIN-SUFFIX,ir,⛔Direct
+  - GEOIP,IR,⛔DIRECT
+  - DOMAIN-SUFFIX,ir,⛔DIRECT
   - DOMAIN-KEYWORD,github,🔰 SELECT
   - DOMAIN-SUFFIX,ghproxy.com,🔰 SELECT
   - DOMAIN-KEYWORD,admarvel,⛔BLOCK
