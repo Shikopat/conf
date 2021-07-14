@@ -392,6 +392,9 @@ proxies:
   - {name: 213123 2, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 64, cipher: auto, tls: false, udp: true}
   - {name: weqwe 2, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false, udp: true}
   - {name: weqwe 3, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇲 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
+  - {name: 🇺🇲 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
+  - {name: 🇺🇲 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 22, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
 proxy-groups:
   - name: 🔰 SELECT
     type: select
@@ -773,6 +776,9 @@ proxy-groups:
       - 213123 2
       - weqwe 2
       - weqwe 3
+      - 🇺🇲 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20
+      - 🇺🇲 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
+      - 🇺🇲 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 22
   - name: ♻️ BESTPING
     type: url-test
     url: https://www.google.com
@@ -1154,6 +1160,9 @@ proxy-groups:
       - 213123 2
       - weqwe 2
       - weqwe 3
+      - 🇺🇲 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 20
+      - 🇺🇲 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 21
+      - 🇺🇲 二爷翻墙网 https://1808.ga美国CloudFlare公司CDN节点 22
   - name: ⛔Direct
     type: select
     proxies:
