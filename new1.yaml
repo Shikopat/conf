@@ -1275,7 +1275,7 @@ rule-providers:
   goovid:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh//Shikopat/block/gvid.yaml"
+    url: "https://cdn.jsdelivr.net/gh//Shikopat/block/gvid.txt"
     path: ./providers/rule/gvid.yaml
     interval: 86400
 
