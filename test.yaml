@@ -495,8 +495,6 @@ rule-providers:
     interval: 86400
 
 rules:
-  - DOMAIN,clash.razord.top,DIRECT
-  - DOMAIN,yacd.haishan.me,DIRECT
   - DOMAIN-SUFFIX,googleapis.cn,FuckWall
   - DOMAIN-KEYWORD,facebook,Just4FaceBook
   - DOMAIN-KEYWORD,oculus,Just4FaceBook
