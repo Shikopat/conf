@@ -19,11 +19,19 @@ dns:
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
   nameserver:
-    - 8.8.8.8
-    - 1.1.1.1
+    - tls://dns.google:853
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://dnsforge.de/dns-quer
+    - https://dns.quad9.net/dns-query
   fallback:
-    - 8.8.8.8
-    - 1.1.1.1
+    - tls://dns.google:853
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://dnsforge.de/dns-quer
+    - https://dns.quad9.net/dns-query
 
 proxy-groups:
   - name: "FuckWall"
