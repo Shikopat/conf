@@ -491,13 +491,6 @@ rule-providers:
     path: ./ruleset/lancidr.yaml
     interval: 86400
 
-  goovid:
-    type: http
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Shikopat/block/main/gvid.txt"
-    path: ./ruleset/gvid.yaml
-    interval: 86400
-
 rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
@@ -512,6 +505,4 @@ rules:
   - RULE-SET,direct,DIRECT
   - RULE-SET,telegramcidr,FuckWall
   - GEOIP,IR,DIRECT
-  - RULE-SET,goovid,REJECT
-  - MATCH,FuckWall
   - MATCH,Final
