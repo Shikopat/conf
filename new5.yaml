@@ -1279,7 +1279,7 @@ rules:
   - DOMAIN-SUFFIX,pagead.l.google.com,⛔BLOCK
   - DOMAIN-SUFFIX,manifest.googlevideo.com,⛔BLOCK
   - DOMAIN-SUFFIX,innovid.com,⛔BLOCK
-   - DOMAIN-SUFFIX,s.innovid.com,⛔BLOCK
+  - DOMAIN-SUFFIX,s.innovid.com,⛔BLOCK
   - DOMAIN-SUFFIX,dts.innovid.com,⛔BLOCK
   - DOMAIN-SUFFIX,pixel.moatads.com,⛔BLOCK
   - DOMAIN-SUFFIX,secure-ds.serving-sys.com,⛔BLOCK
