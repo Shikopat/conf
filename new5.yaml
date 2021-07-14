@@ -16,382 +16,382 @@ dns:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - {name: Surfshark BE 🇧🇪 Brussels 1, server: 91.90.123.115, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark BE 🇧🇪 Brussels 2, server: 91.90.123.173, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark BE 🇧🇪 Brussels 3, server: 91.90.123.147, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark BE 🇧🇪 Brussels 4, server: 91.90.123.139, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FR 🇫🇷 Marseille 2, server: 138.199.16.152, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FR 🇫🇷 Marseille 3, server: 138.199.16.150, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FR 🇫🇷 Marseille 4, server: 138.199.16.142, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FR 🇫🇷 Paris 1, server: 143.244.57.103, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FR 🇫🇷 Paris 2, server: 143.244.57.89, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FR 🇫🇷 Paris 4, server: 84.17.43.180, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FR 🇫🇷 Bordeaux 1, server: 185.108.106.152, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FR 🇫🇷 Bordeaux 3, server: 185.108.106.91, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FR 🇫🇷 Bordeaux 4, server: 185.108.106.102, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Nuernberg 1, server: 144.91.123.52, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Nuernberg 2, server: 144.91.123.50, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Nuernberg 4, server: 144.91.123.52, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Munich 1, server: 178.238.231.55, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Munich 2, server: 79.143.191.139, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Berlin 1, server: 193.29.106.13, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Berlin 2, server: 152.89.163.19, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Berlin 3, server: 89.36.76.59, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Berlin 4, server: 89.36.76.51, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Frankfurt am Main 2, server: 156.146.33.73, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Frankfurt am Main 3, server: 138.199.19.184, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DE 🇩🇪 Frankfurt am Main 4, server: 156.146.33.83, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IT 🇮🇹 Rome 1, server: 82.102.26.99, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IT 🇮🇹 Rome 2, server: 217.138.219.253, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IT 🇮🇹 Rome 3, server: 82.102.26.117, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IT 🇮🇹 Rome 4, server: 82.102.26.91, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IT 🇮🇹 Milan 1, server: 212.102.54.170, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IT 🇮🇹 Milan 2, server: 212.102.54.135, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IT 🇮🇹 Milan 3, server: 212.102.54.130, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IT 🇮🇹 Milan 4, server: 212.102.54.172, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FI 🇫🇮 Helsinki 1, server: 196.244.191.35, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FI 🇫🇮 Helsinki 3, server: 196.244.191.93, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark FI 🇫🇮 Helsinki 4, server: 196.244.191.181, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark NL 🇳🇱 Amsterdam 1, server: 178.239.173.41, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark NL 🇳🇱 Amsterdam 2, server: 178.239.173.47, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark NL 🇳🇱 Amsterdam 3, server: 178.239.173.51, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark NL 🇳🇱 Amsterdam 4, server: 185.59.222.94, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CH 🇨🇭 Zurich 1, server: 212.102.36.234, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CH 🇨🇭 Zurich 2, server: 156.146.62.54, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CH 🇨🇭 Zurich 3, server: 212.102.36.232, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CH 🇨🇭 Zurich 4, server: 156.146.62.39, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 London 1, server: 217.146.82.201, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 London 2, server: 185.44.78.172, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 London 3, server: 185.44.78.56, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 London 4, server: 89.35.29.71, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 Glasgow 1, server: 185.108.105.75, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 Glasgow 2, server: 185.108.105.81, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 Glasgow 3, server: 185.108.105.97, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 Glasgow 4, server: 185.108.105.73, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 Manchester 1, server: 139.28.176.37, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 Manchester 2, server: 89.238.140.227, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 Manchester 3, server: 139.28.176.29, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark GB 🇬🇧 Manchester 4, server: 89.238.143.101, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Latham 1, server: 154.16.169.3, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Latham 2, server: 45.43.19.74, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Latham 3, server: 45.43.19.68, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Latham 4, server: 45.43.19.84, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Boston 1, server: 173.237.207.38, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Boston 2, server: 173.237.207.32, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Boston 3, server: 173.237.207.36, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Boston 4, server: 173.237.207.42, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Buffalo 1, server: 172.93.146.210, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Buffalo 2, server: 64.44.42.196, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Buffalo 3, server: 64.44.42.194, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Buffalo 4, server: 172.93.146.84, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 New York 1, server: 138.199.40.179, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 New York 2, server: 192.40.59.227, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 New York 3, server: 84.17.35.118, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 New York 4, server: 84.17.35.106, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Seattle 1, server: 84.17.41.75, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Seattle 2, server: 199.229.250.165, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Seattle 3, server: 212.102.46.69, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Seattle 4, server: 212.102.46.65, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Chicago 1, server: 138.199.42.151, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Chicago 2, server: 138.199.42.161, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Chicago 3, server: 138.199.42.139, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Chicago 4, server: 138.199.42.163, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Detroit 1, server: 104.244.208.203, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Detroit 2, server: 104.244.210.125, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Detroit 3, server: 104.244.210.139, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Detroit 4, server: 104.244.210.115, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Denver 1, server: 212.102.44.73, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Denver 2, server: 212.102.44.96, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Denver 3, server: 212.102.44.66, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Denver 4, server: 212.102.44.91, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Bend 1, server: 45.43.14.103, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Bend 3, server: 45.43.14.83, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Kansas City 1, server: 173.208.149.197, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Kansas City 2, server: 63.141.236.245, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Kansas City 3, server: 69.30.249.125, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Kansas City 4, server: 63.141.248.181, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Manassas 2, server: 23.105.160.138, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Manassas 1, server: 23.105.160.134, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Manassas 3, server: 23.105.163.109, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Manassas 4, server: 23.105.163.80, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Salt Lake City 1, server: 104.200.131.170, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Salt Lake City 2, server: 104.200.131.165, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Salt Lake City 3, server: 104.200.131.245, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Salt Lake City 4, server: 104.200.131.167, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 St. Louis 1, server: 148.72.174.46, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 St. Louis 2, server: 148.72.174.38, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 St. Louis 3, server: 148.72.174.41, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 St. Louis 4, server: 148.72.169.211, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Tampa 1, server: 209.216.92.3, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Tampa 2, server: 209.216.92.202, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Tampa 3, server: 209.216.92.200, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Tampa 4, server: 209.216.92.212, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Miami 1, server: 91.219.214.11, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Miami 2, server: 89.38.227.165, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Miami 3, server: 89.38.227.173, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Miami 4, server: 45.87.214.253, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Charlotte 1, server: 154.16.171.215, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Charlotte 2, server: 155.254.29.165, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Charlotte 3, server: 154.16.171.213, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Charlotte 4, server: 155.254.31.184, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Dallas 1, server: 66.115.177.146, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Dallas 2, server: 172.241.114.89, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Dallas 3, server: 212.102.40.68, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Dallas 4, server: 89.187.175.167, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Phoenix 1, server: 199.58.187.8, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Phoenix 2, server: 199.58.187.15, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Phoenix 3, server: 199.58.187.3, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Phoenix 4, server: 23.83.128.233, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Atlanta 1, server: 66.115.154.131, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Atlanta 2, server: 66.115.175.42, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Atlanta 3, server: 66.115.166.149, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Orlando 1, server: 66.115.182.112, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Orlando 2, server: 66.115.182.77, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Orlando 3, server: 198.147.22.167, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Orlando 4, server: 66.115.182.74, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Las Vegas 1, server: 45.89.173.205, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Las Vegas 2, server: 89.187.187.149, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Las Vegas 3, server: 89.187.187.147, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Las Vegas 4, server: 185.242.5.211, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Los Angeles 1, server: 89.187.187.76, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Los Angeles 2, server: 138.199.9.199, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Los Angeles 3, server: 138.199.9.195, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Los Angeles 4, server: 89.187.187.83, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Houston 1, server: 199.10.64.181, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Houston 2, server: 104.148.30.53, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Houston 3, server: 199.10.64.101, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 Houston 4, server: 104.148.30.85, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 San Francisco 1, server: 185.124.240.157, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 San Francisco 2, server: 185.124.240.159, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark US 🇺🇸 San Francisco 4, server: 185.124.240.173, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark AL 🇦🇱 Tirana, server: 31.171.155.67, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark AT 🇦🇹 Vienna, server: 89.187.168.51, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark BA 🇧🇦 Sarajevo, server: 185.99.3.207, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark BG 🇧🇬 Sofia, server: 217.138.221.203, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark HR 🇭🇷 Zagreb, server: 176.222.34.121, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CY 🇨🇾 Nicosia, server: 195.47.194.52, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CZ 🇨🇿 Prague, server: 217.138.220.163, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark DK 🇩🇰 Copenhagen, server: 193.29.107.195, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark EE 🇪🇪 Tallinn, server: 185.174.159.133, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark HU 🇭🇺 Budapest, server: 37.120.144.243, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IS 🇮🇸 Reykjavik, server: 45.133.193.221, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IE 🇮🇪 Dublin, server: 185.108.128.160, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark LV 🇱🇻 Riga, server: 188.92.78.150, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark LU 🇱🇺 Luxembourg, server: 185.153.151.78, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark MD 🇲🇩 Chisinau, server: 178.175.128.235, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark MK 🇲🇰 Skopje, server: 185.225.28.85, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark NO 🇳🇴 Oslo, server: 45.12.223.195, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark PL 🇵🇱 Warsaw, server: 138.199.17.130, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark PL 🇵🇱 Gdansk, server: 178.255.45.187, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark PT 🇵🇹 Lisbon, server: 91.205.230.133, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark PT 🇵🇹 Porto, server: 194.39.127.181, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark RO 🇷🇴 Bucharest, server: 185.102.217.159, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark RU 🇷🇺 Moscow, server: 92.38.138.135, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark RU 🇷🇺 St. Petersburg, server: 188.92.78.203, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark RS 🇷🇸 Belgrade, server: 152.89.160.61, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark SK 🇸🇰 Bratislava, server: 185.76.8.217, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark SI 🇸🇮 Ljubljana, server: 195.158.249.52, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark ES 🇪🇸 Barcelona, server: 185.188.61.25, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark ES 🇪🇸 Madrid, server: 89.37.95.25, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark ES 🇪🇸 Valencia, server: 185.153.150.50, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark SE 🇸🇪 Stockholm, server: 195.181.166.226, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark UA 🇺🇦 Kyiv, server: 45.9.238.47, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark AR 🇦🇷 Buenos Aires, server: 91.206.168.64, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark BR 🇧🇷 Sao Paulo, server: 191.96.13.212, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CA 🇨🇦 Montreal, server: 91.245.254.235, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CA 🇨🇦 Toronto, server: 37.19.211.130, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CA 🇨🇦 Vancouver, server: 208.78.41.197, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CL 🇨🇱 Santiago, server: 31.169.121.5, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CO 🇨🇴 Bogota, server: 45.129.32.34, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark CR 🇨🇷 San Jose, server: 176.222.34.115, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark MX 🇲🇽 Mexico City, server: 194.41.112.9, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark PY 🇵🇾 Asunción, server: 181.40.18.47, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark AU 🇦🇺 Perth, server: 124.150.139.123, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark AU 🇦🇺 Adelaide, server: 45.248.79.21, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark AU 🇦🇺 Brisbane, server: 144.48.39.83, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark AU 🇦🇺 Melbourne, server: 103.192.80.229, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark AU 🇦🇺 Sydney, server: 45.125.247.45, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark AZ 🇦🇿 Baku, server: 62.212.239.53, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark HK 🇭🇰 Hong Kong, server: 84.17.37.160, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IN 🇮🇳 Indore, server: 103.39.132.189, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IN 🇮🇳 Mumbai, server: 103.156.51.51, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IN 🇮🇳 Chennai, server: 103.94.27.181, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark ID 🇮🇩 Jakarta, server: 103.120.66.219, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark JP 🇯🇵 Tokyo, server: 138.199.22.143, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark KZ 🇰🇿 Oral, server: 5.189.202.14, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark My 🇲🇾 Kuala Lumpur, server: 42.0.30.164, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark Nz 🇳🇿 Auckland, server: 180.149.231.13, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark  PH 🇵🇭 Manila, server: 45.134.224.15, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark SG 🇸🇬 Singapore, server: 156.146.56.137, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark KR 🇰🇷 Seoul, server: 27.255.77.195, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark TW 🇹🇼 Taichung City, server: 103.152.151.85, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark TH 🇹🇭 Bangkok, server: 27.131.164.85, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark VN 🇻🇳 Ho Chi Minh City, server: 202.143.110.32, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark IL 🇮🇱 Tel Aviv, server: 87.239.255.121, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: Surfshark AE 🇦🇪 Dubai, server: 176.125.231.5, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: UFO Amsterdam-🇳🇱, server: 178.132.3.124, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Atlanta-🇺🇸, server: 92.119.16.204, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Atlanta-🇺🇸 2, server: 167.88.63.29, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Berlin-🇩🇪, server: 196.244.72.5, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Chicago-🇺🇸, server: 162.251.61.221, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Dallas-U🇺🇸, server: 38.68.135.248, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Dusseldorf-🇩🇪, server: 93.186.201.69, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Dusseldorf-🇩🇪 2, server: 93.186.201.93, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Frankfurt-🇩🇪, server: 135.125.147.68, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO London-2-🇬🇧, server: 89.34.96.134, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO London-2-🇬🇧 2, server: 89.35.29.23, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO London-2-🇬🇧 3, server: 195.206.181.23, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO London-2-🇬🇧 4, server: 217.146.83.60, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO London-2-🇬🇧 5, server: 195.140.215.22, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Los Angeles-🇺🇸, server: 45.152.182.30, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Los Angeles-🇺🇸 2, server: 77.247.126.153, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Miami-🇺🇸, server: 38.91.107.225, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO New York-🇺🇸, server: 45.144.112.162, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO New York-🇺🇸 2, server: 194.124.76.241, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO New York-🇺🇸 3, server: 194.124.76.194, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Paris-5-🇫🇷, server: 163.172.110.119, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Paris-5-🇫🇷 2, server: 163.172.110.153, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Paris-5-🇫🇷 3, server: 163.172.110.53, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Paris-5-🇫🇷 4, server: 163.172.65.156, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Paris-5-🇫🇷 5, server: 163.172.110.54, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Paris-5-🇫🇷 6, server: 163.172.110.147, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Paris-5-🇫🇷 7, server: 163.172.110.154, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Paris-🇫🇷, server: 51.159.22.235, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Paris-🇫🇷 2, server: 51.159.19.148, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Quebec-🇨🇦, server: 142.44.135.104, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Roubaix-🇫🇷, server: 178.33.195.2, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Seattle-🇺🇸, server: 38.143.66.12, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Stockholm-🇸🇪, server: 196.196.156.106, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Toronto-🇨🇦, server: 196.247.59.156, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Warsaw-🇵🇱, server: 146.59.0.168, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UFO Zurich-🇨🇭, server: 188.241.120.16, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: HyperVPN Czechia 🇨🇿, server: 51.77.170.89, port: 4040, type: ss, cipher: aes-256-gcm, password: mLALZNdiT5zG}
-  - {name: HyperVPN Finland 🇫🇮, server: 176.31.146.89, port: 4040, type: ss, cipher: aes-256-gcm, password: AMvZHPXhPk6t}
-  - {name: HyperVPN Germany 🇩🇪, server: 136.243.158.13, port: 4040, type: ss, cipher: aes-256-gcm, password: BsNmpzet3AnY}
-  - {name: HyperVPN USA 🇺🇸, server: 207.182.155.170, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: gRcNQyKEpDEI}
-  - {name: Aloha-DE1, server: 213.136.80.36, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-DE2, server: 161.97.131.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-US1, server: 213.174.130.129, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-US2, server: 213.174.130.130, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-US3, server: 213.174.159.246, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-US4, server: 213.174.159.247, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-US5, server: 213.174.158.181, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-US6, server: 213.174.130.129, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-CY1, server: 213.169.137.214, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-CY2, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-GB1, server: 176.10.80.6, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: P2P-TorrentNL, server: 51.15.0.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-NL1, server: 88.208.7.204, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-IT1, server: 95.174.23.218, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-FR1, server: 145.239.75.87, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-FR2, server: 51.77.194.83, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-PL1, server: 54.37.136.249, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-PL2, server: 54.37.139.110, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-AT1, server: 192.71.227.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-AT2, server: 192.71.227.64, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-AT3, server: 151.236.30.184, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-IN1, server: 139.59.30.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-IN2, server: 68.183.93.38, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-TR1, server: 185.227.137.209, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-IS1, server: 31.133.102.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-RU1, server: 31.192.104.206, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-RU2, server: 83.217.9.76, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-AUS1, server: 149.28.167.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-AUS2, server: 149.28.186.148, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-SG1, server: 194.233.65.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-HK1, server: 203.23.128.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-JP1, server: 45.114.130.92, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-SA1, server: 197.189.202.25, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-SA2, server: 129.232.222.74, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-BR1, server: 209.14.0.228, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-BR2, server: 185.192.124.183, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-LX1, server: 172.255.248.40, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-LX2, server: 172.255.248.39, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-CH1, server: 212.237.210.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-BE1, server: 194.71.227.178, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-BE2, server: 192.71.249.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-DK1, server: 192.36.27.59, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-DK2, server: 192.36.27.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-IE1, server: 185.108.129.159, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-IE2, server: 185.108.129.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-ES1, server: 37.143.130.213, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-NO1, server: 194.68.32.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-BG1, server: 194.68.225.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-BG2, server: 194.68.225.104, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-MT1, server: 185.89.238.36, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-EE1, server: 37.252.5.234, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-MY1, server: 202.59.10.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-TH1, server: 43.254.132.220, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-SK1, server: 188.123.123.133, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-CZ1, server: 193.235.207.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-CL1, server: 37.235.52.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-PT1, server: 185.113.143.189, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-UA1, server: 147.78.3.242, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-FL1, server: 37.143.129.185, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-HU1, server: 194.71.130.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-MD1, server: 192.121.87.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-SL1, server: 192.71.244.49, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-IS2, server: 37.235.49.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-AR1, server: 131.255.4.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-SE1, server: 46.246.93.59, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-BG3, server: 194.68.225.104, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-BG4, server: 194.68.225.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-NO2, server: 194.68.32.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Aloha-NO3, server: 194.68.32.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: eluosi, server: 185.246.154.76, port: 18019, type: vmess, uuid: 7d00ead2-b08a-46d4-80c9-c642d8a9790a, alterId: 64, cipher: auto, tls: false}
-  - {name: 2312, server: 78.128.92.30, port: 28865, type: vmess, uuid: 35f0533f-77c0-42e8-c937-6c5596c42d7c, alterId: 64, cipher: auto, tls: false}
-  - {name: Denmark-1, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
-  - {name: wew, server: 163.172.42.68, port: 49244, type: vmess, uuid: 10468a0d-5fb6-49c6-aa8d-310a34406cc7, alterId: 64, cipher: auto, tls: false}
-  - {name: yidla, server: 91.201.65.42, port: 27104, type: vmess, uuid: 1889fa38-619f-4ec3-bdf5-ace28ff82362, alterId: 64, cipher: auto, tls: false}
-  - {name: 213123, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 64, cipher: auto, tls: false}
-  - {name: 98080, server: 212.80.205.133, port: 31262, type: vmess, uuid: 00415a68-d5eb-4573-b73e-2b21f6b45c5d, alterId: 64, cipher: auto, tls: false}
-  - {name: qwewq, server: 3.8.89.83, port: 35017, type: vmess, uuid: 0457b5ce-79ea-4369-c2a0-ae793ccced13, alterId: 64, cipher: auto, tls: false}
-  - {name: vmess1, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
-  - {name: Spain, server: 5.183.103.196, port: 57801, type: vmess, uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc, alterId: 64, cipher: auto, tls: false}
-  - {name: meiguov1, server: 193.42.96.98, port: 30104, type: vmess, uuid: c7d03e59-8fff-463e-9589-9f8099d3e366, alterId: 64, cipher: auto, tls: false}
-  - {name: weqwe, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
-  - {name: tuerqi, server: 193.31.116.230, port: 48003, type: vmess, uuid: 4d274187-109a-44df-bb55-b2c84eb03ba7, alterId: 64, cipher: auto, tls: false}
-  - {name: England-1, server: 5.183.102.142, port: 14420, type: vmess, uuid: 9984501d-e80a-4144-c6bd-2503fb49872d, alterId: 64, cipher: auto, tls: false}
-  - {name: 777777, server: 15.184.167.171, port: 24527, type: vmess, uuid: f1dc9b61-017e-4909-a9b4-19b8d3c7cae1, alterId: 64, cipher: auto, tls: false}
-  - {name: 546456, server: 185.247.138.25, port: 15079, type: vmess, uuid: a1d846ec-9bef-4ffd-e34a-43bb06323ac3, alterId: 64, cipher: auto, tls: false}
-  - {name: 45645654, server: 3.108.61.75, port: 44810, type: vmess, uuid: 2149d8a1-a22b-41b5-b5da-0c30170dc198, alterId: 64, cipher: auto, tls: false}
-  - {name: Norway-1, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
-  - {name: adsad, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false}
-  - {name: Holland-1, server: 5.180.79.11, port: 27449, type: vmess, uuid: 0cd64346-cd8d-4306-c256-05e12c76d5a5, alterId: 64, cipher: auto, tls: false}
-  - {name: eluosi 2, server: 185.246.154.76, port: 18019, type: vmess, uuid: 7d00ead2-b08a-46d4-80c9-c642d8a9790a, alterId: 64, cipher: auto, tls: false}
-  - {name: yidla 2, server: 91.201.65.42, port: 27104, type: vmess, uuid: 1889fa38-619f-4ec3-bdf5-ace28ff82362, alterId: 64, cipher: auto, tls: false}
-  - {name: sdasd, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
-  - {name: eluosi 3, server: 185.246.154.76, port: 18019, type: vmess, uuid: 7d00ead2-b08a-46d4-80c9-c642d8a9790a, alterId: 64, cipher: auto, tls: false}
-  - {name: 58756, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false}
-  - {name: asdsa, server: 95.214.55.118, port: 50825, type: vmess, uuid: 0cfb1063-051e-4a56-ccac-27947710ea0e, alterId: 64, cipher: auto, tls: false}
-  - {name: sdasd 2, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
-  - {name: 58756 2, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false}
-  - {name: asdsa 2, server: 95.214.55.118, port: 50825, type: vmess, uuid: 0cfb1063-051e-4a56-ccac-27947710ea0e, alterId: 64, cipher: auto, tls: false}
-  - {name: t.me/samuraivpn, server: 18.193.122.123, port: 25275, type: vmess, uuid: eebfe76a-c71f-49e4-f983-983384d5dadf, alterId: 64, cipher: auto, tls: false}
-  - {name: t.me/samuraivpn 2, server: 158.101.167.181, port: 39656, type: vmess, uuid: 3d48d399-bf20-4ecc-91d9-81fdb8eae969, alterId: 64, cipher: auto, tls: false}
-  - {name: t.me/samuraivpn 3, server: 18.193.122.123, port: 25275, type: vmess, uuid: eebfe76a-c71f-49e4-f983-983384d5dadf, alterId: 64, cipher: auto, tls: false}
-  - {name: 3432, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
-  - {name: t.me/samuraivpn 4, server: 158.101.167.181, port: 39656, type: vmess, uuid: 3d48d399-bf20-4ecc-91d9-81fdb8eae969, alterId: 64, cipher: auto, tls: false}
-  - {name: t.me/samuraivpn 5, server: 3.66.228.40, port: 23709, type: vmess, uuid: a6939089-278e-4f48-a841-187a67ab9ab9, alterId: 64, cipher: auto, tls: false}
-  - {name: 3432 2, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
-  - {name: t.me/samuraivpn 6, server: 3.66.228.40, port: 23709, type: vmess, uuid: a6939089-278e-4f48-a841-187a67ab9ab9, alterId: 64, cipher: auto, tls: false}
-  - {name: sadasd, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
-  - {name: asdasd, server: 15.228.50.78, port: 13758, type: vmess, uuid: 08d6bce7-c83d-4420-abc9-9910e2eb084e, alterId: 64, cipher: auto, tls: false}
-  - {name: sadasd 2, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
-  - {name: asdasd 2, server: 15.228.50.78, port: 13758, type: vmess, uuid: 08d6bce7-c83d-4420-abc9-9910e2eb084e, alterId: 64, cipher: auto, tls: false}
-  - {name: "", server: 13.245.13.47, port: 45623, type: vmess, uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf, alterId: 64, cipher: auto, tls: false}
-  - {name: " 2", server: 13.245.13.47, port: 45623, type: vmess, uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf, alterId: 64, cipher: auto, tls: false}
-  - {name: South Africa-A2, server: 13.245.16.126, port: 20404, type: vmess, uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5, alterId: 64, cipher: auto, tls: false}
-  - {name: South Africa-A2 2, server: 13.245.16.126, port: 20404, type: vmess, uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5, alterId: 64, cipher: auto, tls: false}
-  - {name: t.me/samuraivpn 7, server: 165.154.234.111, port: 41182, type: vmess, uuid: 610a5731-123c-4e8d-8f82-2d96459e42f5, alterId: 64, cipher: auto, tls: false}
-  - {name: t.me/samuraivpn 8, server: 165.154.234.111, port: 41182, type: vmess, uuid: 610a5731-123c-4e8d-8f82-2d96459e42f5, alterId: 64, cipher: auto, tls: false}
-  - {name: adsad 2, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false}
-  - {name: meiguov1 2, server: 193.42.96.98, port: 30104, type: vmess, uuid: c7d03e59-8fff-463e-9589-9f8099d3e366, alterId: 64, cipher: auto, tls: false}
-  - {name: vmess1 2, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
-  - {name: qwewq 2, server: 3.8.89.83, port: 35017, type: vmess, uuid: 0457b5ce-79ea-4369-c2a0-ae793ccced13, alterId: 64, cipher: auto, tls: false}
-  - {name: 213123 2, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 64, cipher: auto, tls: false}
-  - {name: weqwe 2, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
-  - {name: weqwe 3, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
+  - {name: Surfshark BE 🇧🇪 Brussels 1, server: 91.90.123.115, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark BE 🇧🇪 Brussels 2, server: 91.90.123.173, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark BE 🇧🇪 Brussels 3, server: 91.90.123.147, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark BE 🇧🇪 Brussels 4, server: 91.90.123.139, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FR 🇫🇷 Marseille 2, server: 138.199.16.152, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FR 🇫🇷 Marseille 3, server: 138.199.16.150, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FR 🇫🇷 Marseille 4, server: 138.199.16.142, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FR 🇫🇷 Paris 1, server: 143.244.57.103, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FR 🇫🇷 Paris 2, server: 143.244.57.89, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FR 🇫🇷 Paris 4, server: 84.17.43.180, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FR 🇫🇷 Bordeaux 1, server: 185.108.106.152, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FR 🇫🇷 Bordeaux 3, server: 185.108.106.91, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FR 🇫🇷 Bordeaux 4, server: 185.108.106.102, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Nuernberg 1, server: 144.91.123.52, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Nuernberg 2, server: 144.91.123.50, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Nuernberg 4, server: 144.91.123.52, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Munich 1, server: 178.238.231.55, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Munich 2, server: 79.143.191.139, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Berlin 1, server: 193.29.106.13, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Berlin 2, server: 152.89.163.19, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Berlin 3, server: 89.36.76.59, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Berlin 4, server: 89.36.76.51, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Frankfurt am Main 2, server: 156.146.33.73, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Frankfurt am Main 3, server: 138.199.19.184, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DE 🇩🇪 Frankfurt am Main 4, server: 156.146.33.83, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IT 🇮🇹 Rome 1, server: 82.102.26.99, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IT 🇮🇹 Rome 2, server: 217.138.219.253, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IT 🇮🇹 Rome 3, server: 82.102.26.117, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IT 🇮🇹 Rome 4, server: 82.102.26.91, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IT 🇮🇹 Milan 1, server: 212.102.54.170, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IT 🇮🇹 Milan 2, server: 212.102.54.135, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IT 🇮🇹 Milan 3, server: 212.102.54.130, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IT 🇮🇹 Milan 4, server: 212.102.54.172, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FI 🇫🇮 Helsinki 1, server: 196.244.191.35, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FI 🇫🇮 Helsinki 3, server: 196.244.191.93, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark FI 🇫🇮 Helsinki 4, server: 196.244.191.181, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark NL 🇳🇱 Amsterdam 1, server: 178.239.173.41, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark NL 🇳🇱 Amsterdam 2, server: 178.239.173.47, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark NL 🇳🇱 Amsterdam 3, server: 178.239.173.51, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark NL 🇳🇱 Amsterdam 4, server: 185.59.222.94, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CH 🇨🇭 Zurich 1, server: 212.102.36.234, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CH 🇨🇭 Zurich 2, server: 156.146.62.54, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CH 🇨🇭 Zurich 3, server: 212.102.36.232, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CH 🇨🇭 Zurich 4, server: 156.146.62.39, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 London 1, server: 217.146.82.201, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 London 2, server: 185.44.78.172, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 London 3, server: 185.44.78.56, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 London 4, server: 89.35.29.71, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 Glasgow 1, server: 185.108.105.75, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 Glasgow 2, server: 185.108.105.81, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 Glasgow 3, server: 185.108.105.97, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 Glasgow 4, server: 185.108.105.73, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 Manchester 1, server: 139.28.176.37, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 Manchester 2, server: 89.238.140.227, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 Manchester 3, server: 139.28.176.29, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark GB 🇬🇧 Manchester 4, server: 89.238.143.101, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Latham 1, server: 154.16.169.3, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Latham 2, server: 45.43.19.74, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Latham 3, server: 45.43.19.68, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Latham 4, server: 45.43.19.84, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Boston 1, server: 173.237.207.38, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Boston 2, server: 173.237.207.32, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Boston 3, server: 173.237.207.36, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Boston 4, server: 173.237.207.42, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Buffalo 1, server: 172.93.146.210, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Buffalo 2, server: 64.44.42.196, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Buffalo 3, server: 64.44.42.194, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Buffalo 4, server: 172.93.146.84, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 New York 1, server: 138.199.40.179, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 New York 2, server: 192.40.59.227, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 New York 3, server: 84.17.35.118, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 New York 4, server: 84.17.35.106, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Seattle 1, server: 84.17.41.75, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Seattle 2, server: 199.229.250.165, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Seattle 3, server: 212.102.46.69, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Seattle 4, server: 212.102.46.65, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Chicago 1, server: 138.199.42.151, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Chicago 2, server: 138.199.42.161, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Chicago 3, server: 138.199.42.139, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Chicago 4, server: 138.199.42.163, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Detroit 1, server: 104.244.208.203, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Detroit 2, server: 104.244.210.125, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Detroit 3, server: 104.244.210.139, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Detroit 4, server: 104.244.210.115, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Denver 1, server: 212.102.44.73, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Denver 2, server: 212.102.44.96, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Denver 3, server: 212.102.44.66, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Denver 4, server: 212.102.44.91, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Bend 1, server: 45.43.14.103, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Bend 3, server: 45.43.14.83, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Kansas City 1, server: 173.208.149.197, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Kansas City 2, server: 63.141.236.245, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Kansas City 3, server: 69.30.249.125, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Kansas City 4, server: 63.141.248.181, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Manassas 2, server: 23.105.160.138, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Manassas 1, server: 23.105.160.134, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Manassas 3, server: 23.105.163.109, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Manassas 4, server: 23.105.163.80, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Salt Lake City 1, server: 104.200.131.170, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Salt Lake City 2, server: 104.200.131.165, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Salt Lake City 3, server: 104.200.131.245, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Salt Lake City 4, server: 104.200.131.167, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 St. Louis 1, server: 148.72.174.46, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 St. Louis 2, server: 148.72.174.38, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 St. Louis 3, server: 148.72.174.41, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 St. Louis 4, server: 148.72.169.211, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Tampa 1, server: 209.216.92.3, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Tampa 2, server: 209.216.92.202, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Tampa 3, server: 209.216.92.200, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Tampa 4, server: 209.216.92.212, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Miami 1, server: 91.219.214.11, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Miami 2, server: 89.38.227.165, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Miami 3, server: 89.38.227.173, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Miami 4, server: 45.87.214.253, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Charlotte 1, server: 154.16.171.215, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Charlotte 2, server: 155.254.29.165, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Charlotte 3, server: 154.16.171.213, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Charlotte 4, server: 155.254.31.184, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Dallas 1, server: 66.115.177.146, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Dallas 2, server: 172.241.114.89, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Dallas 3, server: 212.102.40.68, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Dallas 4, server: 89.187.175.167, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Phoenix 1, server: 199.58.187.8, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Phoenix 2, server: 199.58.187.15, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Phoenix 3, server: 199.58.187.3, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Phoenix 4, server: 23.83.128.233, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Atlanta 1, server: 66.115.154.131, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Atlanta 2, server: 66.115.175.42, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Atlanta 3, server: 66.115.166.149, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Orlando 1, server: 66.115.182.112, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Orlando 2, server: 66.115.182.77, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Orlando 3, server: 198.147.22.167, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Orlando 4, server: 66.115.182.74, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Las Vegas 1, server: 45.89.173.205, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Las Vegas 2, server: 89.187.187.149, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Las Vegas 3, server: 89.187.187.147, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Las Vegas 4, server: 185.242.5.211, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Los Angeles 1, server: 89.187.187.76, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Los Angeles 2, server: 138.199.9.199, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Los Angeles 3, server: 138.199.9.195, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Los Angeles 4, server: 89.187.187.83, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Houston 1, server: 199.10.64.181, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Houston 2, server: 104.148.30.53, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Houston 3, server: 199.10.64.101, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 Houston 4, server: 104.148.30.85, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 San Francisco 1, server: 185.124.240.157, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 San Francisco 2, server: 185.124.240.159, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark US 🇺🇸 San Francisco 4, server: 185.124.240.173, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark AL 🇦🇱 Tirana, server: 31.171.155.67, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark AT 🇦🇹 Vienna, server: 89.187.168.51, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark BA 🇧🇦 Sarajevo, server: 185.99.3.207, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark BG 🇧🇬 Sofia, server: 217.138.221.203, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark HR 🇭🇷 Zagreb, server: 176.222.34.121, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CY 🇨🇾 Nicosia, server: 195.47.194.52, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CZ 🇨🇿 Prague, server: 217.138.220.163, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark DK 🇩🇰 Copenhagen, server: 193.29.107.195, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark EE 🇪🇪 Tallinn, server: 185.174.159.133, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark HU 🇭🇺 Budapest, server: 37.120.144.243, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IS 🇮🇸 Reykjavik, server: 45.133.193.221, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IE 🇮🇪 Dublin, server: 185.108.128.160, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark LV 🇱🇻 Riga, server: 188.92.78.150, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark LU 🇱🇺 Luxembourg, server: 185.153.151.78, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark MD 🇲🇩 Chisinau, server: 178.175.128.235, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark MK 🇲🇰 Skopje, server: 185.225.28.85, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark NO 🇳🇴 Oslo, server: 45.12.223.195, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark PL 🇵🇱 Warsaw, server: 138.199.17.130, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark PL 🇵🇱 Gdansk, server: 178.255.45.187, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark PT 🇵🇹 Lisbon, server: 91.205.230.133, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark PT 🇵🇹 Porto, server: 194.39.127.181, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark RO 🇷🇴 Bucharest, server: 185.102.217.159, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark RU 🇷🇺 Moscow, server: 92.38.138.135, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark RU 🇷🇺 St. Petersburg, server: 188.92.78.203, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark RS 🇷🇸 Belgrade, server: 152.89.160.61, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark SK 🇸🇰 Bratislava, server: 185.76.8.217, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark SI 🇸🇮 Ljubljana, server: 195.158.249.52, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark ES 🇪🇸 Barcelona, server: 185.188.61.25, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark ES 🇪🇸 Madrid, server: 89.37.95.25, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark ES 🇪🇸 Valencia, server: 185.153.150.50, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark SE 🇸🇪 Stockholm, server: 195.181.166.226, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark UA 🇺🇦 Kyiv, server: 45.9.238.47, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark AR 🇦🇷 Buenos Aires, server: 91.206.168.64, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark BR 🇧🇷 Sao Paulo, server: 191.96.13.212, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CA 🇨🇦 Montreal, server: 91.245.254.235, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CA 🇨🇦 Toronto, server: 37.19.211.130, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CA 🇨🇦 Vancouver, server: 208.78.41.197, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CL 🇨🇱 Santiago, server: 31.169.121.5, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CO 🇨🇴 Bogota, server: 45.129.32.34, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark CR 🇨🇷 San Jose, server: 176.222.34.115, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark MX 🇲🇽 Mexico City, server: 194.41.112.9, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark PY 🇵🇾 Asunción, server: 181.40.18.47, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark AU 🇦🇺 Perth, server: 124.150.139.123, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark AU 🇦🇺 Adelaide, server: 45.248.79.21, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark AU 🇦🇺 Brisbane, server: 144.48.39.83, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark AU 🇦🇺 Melbourne, server: 103.192.80.229, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark AU 🇦🇺 Sydney, server: 45.125.247.45, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark AZ 🇦🇿 Baku, server: 62.212.239.53, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark HK 🇭🇰 Hong Kong, server: 84.17.37.160, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IN 🇮🇳 Indore, server: 103.39.132.189, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IN 🇮🇳 Mumbai, server: 103.156.51.51, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IN 🇮🇳 Chennai, server: 103.94.27.181, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark ID 🇮🇩 Jakarta, server: 103.120.66.219, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark JP 🇯🇵 Tokyo, server: 138.199.22.143, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark KZ 🇰🇿 Oral, server: 5.189.202.14, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark My 🇲🇾 Kuala Lumpur, server: 42.0.30.164, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark Nz 🇳🇿 Auckland, server: 180.149.231.13, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark  PH 🇵🇭 Manila, server: 45.134.224.15, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark SG 🇸🇬 Singapore, server: 156.146.56.137, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark KR 🇰🇷 Seoul, server: 27.255.77.195, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark TW 🇹🇼 Taichung City, server: 103.152.151.85, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark TH 🇹🇭 Bangkok, server: 27.131.164.85, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark VN 🇻🇳 Ho Chi Minh City, server: 202.143.110.32, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark IL 🇮🇱 Tel Aviv, server: 87.239.255.121, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: Surfshark AE 🇦🇪 Dubai, server: 176.125.231.5, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs, udp: true}
+  - {name: UFO Amsterdam-🇳🇱, server: 178.132.3.124, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Atlanta-🇺🇸, server: 92.119.16.204, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Atlanta-🇺🇸 2, server: 167.88.63.29, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Berlin-🇩🇪, server: 196.244.72.5, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Chicago-🇺🇸, server: 162.251.61.221, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Dallas-U🇺🇸, server: 38.68.135.248, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Dusseldorf-🇩🇪, server: 93.186.201.69, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Dusseldorf-🇩🇪 2, server: 93.186.201.93, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Frankfurt-🇩🇪, server: 135.125.147.68, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO London-2-🇬🇧, server: 89.34.96.134, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO London-2-🇬🇧 2, server: 89.35.29.23, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO London-2-🇬🇧 3, server: 195.206.181.23, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO London-2-🇬🇧 4, server: 217.146.83.60, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO London-2-🇬🇧 5, server: 195.140.215.22, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Los Angeles-🇺🇸, server: 45.152.182.30, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Los Angeles-🇺🇸 2, server: 77.247.126.153, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Miami-🇺🇸, server: 38.91.107.225, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO New York-🇺🇸, server: 45.144.112.162, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO New York-🇺🇸 2, server: 194.124.76.241, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO New York-🇺🇸 3, server: 194.124.76.194, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Paris-5-🇫🇷, server: 163.172.110.119, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Paris-5-🇫🇷 2, server: 163.172.110.153, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Paris-5-🇫🇷 3, server: 163.172.110.53, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Paris-5-🇫🇷 4, server: 163.172.65.156, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Paris-5-🇫🇷 5, server: 163.172.110.54, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Paris-5-🇫🇷 6, server: 163.172.110.147, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Paris-5-🇫🇷 7, server: 163.172.110.154, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Paris-🇫🇷, server: 51.159.22.235, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Paris-🇫🇷 2, server: 51.159.19.148, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Quebec-🇨🇦, server: 142.44.135.104, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Roubaix-🇫🇷, server: 178.33.195.2, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Seattle-🇺🇸, server: 38.143.66.12, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Stockholm-🇸🇪, server: 196.196.156.106, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Toronto-🇨🇦, server: 196.247.59.156, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Warsaw-🇵🇱, server: 146.59.0.168, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: UFO Zurich-🇨🇭, server: 188.241.120.16, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HyperVPN Czechia 🇨🇿, server: 51.77.170.89, port: 4040, type: ss, cipher: aes-256-gcm, password: mLALZNdiT5zG, udp: true}
+  - {name: HyperVPN Finland 🇫🇮, server: 176.31.146.89, port: 4040, type: ss, cipher: aes-256-gcm, password: AMvZHPXhPk6t, udp: true}
+  - {name: HyperVPN Germany 🇩🇪, server: 136.243.158.13, port: 4040, type: ss, cipher: aes-256-gcm, password: BsNmpzet3AnY, udp: true}
+  - {name: HyperVPN USA 🇺🇸, server: 207.182.155.170, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: gRcNQyKEpDEI, udp: true}
+  - {name: Aloha-DE1, server: 213.136.80.36, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-DE2, server: 161.97.131.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-US1, server: 213.174.130.129, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-US2, server: 213.174.130.130, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-US3, server: 213.174.159.246, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-US4, server: 213.174.159.247, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-US5, server: 213.174.158.181, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-US6, server: 213.174.130.129, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-CY1, server: 213.169.137.214, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-CY2, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-GB1, server: 176.10.80.6, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: P2P-TorrentNL, server: 51.15.0.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-NL1, server: 88.208.7.204, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-IT1, server: 95.174.23.218, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-FR1, server: 145.239.75.87, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-FR2, server: 51.77.194.83, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-PL1, server: 54.37.136.249, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-PL2, server: 54.37.139.110, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-AT1, server: 192.71.227.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-AT2, server: 192.71.227.64, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-AT3, server: 151.236.30.184, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-IN1, server: 139.59.30.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-IN2, server: 68.183.93.38, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-TR1, server: 185.227.137.209, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-IS1, server: 31.133.102.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-RU1, server: 31.192.104.206, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-RU2, server: 83.217.9.76, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-AUS1, server: 149.28.167.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-AUS2, server: 149.28.186.148, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-SG1, server: 194.233.65.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-HK1, server: 203.23.128.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-JP1, server: 45.114.130.92, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-SA1, server: 197.189.202.25, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-SA2, server: 129.232.222.74, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-BR1, server: 209.14.0.228, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-BR2, server: 185.192.124.183, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-LX1, server: 172.255.248.40, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-LX2, server: 172.255.248.39, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-CH1, server: 212.237.210.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-BE1, server: 194.71.227.178, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-BE2, server: 192.71.249.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-DK1, server: 192.36.27.59, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-DK2, server: 192.36.27.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-IE1, server: 185.108.129.159, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-IE2, server: 185.108.129.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-ES1, server: 37.143.130.213, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-NO1, server: 194.68.32.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-BG1, server: 194.68.225.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-BG2, server: 194.68.225.104, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-MT1, server: 185.89.238.36, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-EE1, server: 37.252.5.234, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-MY1, server: 202.59.10.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-TH1, server: 43.254.132.220, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-SK1, server: 188.123.123.133, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-CZ1, server: 193.235.207.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-CL1, server: 37.235.52.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-PT1, server: 185.113.143.189, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-UA1, server: 147.78.3.242, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-FL1, server: 37.143.129.185, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-HU1, server: 194.71.130.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-MD1, server: 192.121.87.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-SL1, server: 192.71.244.49, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-IS2, server: 37.235.49.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-AR1, server: 131.255.4.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-SE1, server: 46.246.93.59, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-BG3, server: 194.68.225.104, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-BG4, server: 194.68.225.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-NO2, server: 194.68.32.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Aloha-NO3, server: 194.68.32.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: eluosi, server: 185.246.154.76, port: 18019, type: vmess, uuid: 7d00ead2-b08a-46d4-80c9-c642d8a9790a, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 2312, server: 78.128.92.30, port: 28865, type: vmess, uuid: 35f0533f-77c0-42e8-c937-6c5596c42d7c, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: Denmark-1, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: wew, server: 163.172.42.68, port: 49244, type: vmess, uuid: 10468a0d-5fb6-49c6-aa8d-310a34406cc7, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: yidla, server: 91.201.65.42, port: 27104, type: vmess, uuid: 1889fa38-619f-4ec3-bdf5-ace28ff82362, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 213123, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 98080, server: 212.80.205.133, port: 31262, type: vmess, uuid: 00415a68-d5eb-4573-b73e-2b21f6b45c5d, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: qwewq, server: 3.8.89.83, port: 35017, type: vmess, uuid: 0457b5ce-79ea-4369-c2a0-ae793ccced13, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: vmess1, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: Spain, server: 5.183.103.196, port: 57801, type: vmess, uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: meiguov1, server: 193.42.96.98, port: 30104, type: vmess, uuid: c7d03e59-8fff-463e-9589-9f8099d3e366, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: weqwe, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: tuerqi, server: 193.31.116.230, port: 48003, type: vmess, uuid: 4d274187-109a-44df-bb55-b2c84eb03ba7, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: England-1, server: 5.183.102.142, port: 14420, type: vmess, uuid: 9984501d-e80a-4144-c6bd-2503fb49872d, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 777777, server: 15.184.167.171, port: 24527, type: vmess, uuid: f1dc9b61-017e-4909-a9b4-19b8d3c7cae1, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 546456, server: 185.247.138.25, port: 15079, type: vmess, uuid: a1d846ec-9bef-4ffd-e34a-43bb06323ac3, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 45645654, server: 3.108.61.75, port: 44810, type: vmess, uuid: 2149d8a1-a22b-41b5-b5da-0c30170dc198, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: Norway-1, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: adsad, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: Holland-1, server: 5.180.79.11, port: 27449, type: vmess, uuid: 0cd64346-cd8d-4306-c256-05e12c76d5a5, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: eluosi 2, server: 185.246.154.76, port: 18019, type: vmess, uuid: 7d00ead2-b08a-46d4-80c9-c642d8a9790a, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: yidla 2, server: 91.201.65.42, port: 27104, type: vmess, uuid: 1889fa38-619f-4ec3-bdf5-ace28ff82362, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: sdasd, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: eluosi 3, server: 185.246.154.76, port: 18019, type: vmess, uuid: 7d00ead2-b08a-46d4-80c9-c642d8a9790a, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 58756, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: asdsa, server: 95.214.55.118, port: 50825, type: vmess, uuid: 0cfb1063-051e-4a56-ccac-27947710ea0e, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: sdasd 2, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 58756 2, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: asdsa 2, server: 95.214.55.118, port: 50825, type: vmess, uuid: 0cfb1063-051e-4a56-ccac-27947710ea0e, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: t.me/samuraivpn, server: 18.193.122.123, port: 25275, type: vmess, uuid: eebfe76a-c71f-49e4-f983-983384d5dadf, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: t.me/samuraivpn 2, server: 158.101.167.181, port: 39656, type: vmess, uuid: 3d48d399-bf20-4ecc-91d9-81fdb8eae969, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: t.me/samuraivpn 3, server: 18.193.122.123, port: 25275, type: vmess, uuid: eebfe76a-c71f-49e4-f983-983384d5dadf, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 3432, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: t.me/samuraivpn 4, server: 158.101.167.181, port: 39656, type: vmess, uuid: 3d48d399-bf20-4ecc-91d9-81fdb8eae969, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: t.me/samuraivpn 5, server: 3.66.228.40, port: 23709, type: vmess, uuid: a6939089-278e-4f48-a841-187a67ab9ab9, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 3432 2, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: t.me/samuraivpn 6, server: 3.66.228.40, port: 23709, type: vmess, uuid: a6939089-278e-4f48-a841-187a67ab9ab9, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: sadasd, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: asdasd, server: 15.228.50.78, port: 13758, type: vmess, uuid: 08d6bce7-c83d-4420-abc9-9910e2eb084e, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: sadasd 2, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: asdasd 2, server: 15.228.50.78, port: 13758, type: vmess, uuid: 08d6bce7-c83d-4420-abc9-9910e2eb084e, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: "", server: 13.245.13.47, port: 45623, type: vmess, uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: " 2", server: 13.245.13.47, port: 45623, type: vmess, uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: South Africa-A2, server: 13.245.16.126, port: 20404, type: vmess, uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: South Africa-A2 2, server: 13.245.16.126, port: 20404, type: vmess, uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: t.me/samuraivpn 7, server: 165.154.234.111, port: 41182, type: vmess, uuid: 610a5731-123c-4e8d-8f82-2d96459e42f5, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: t.me/samuraivpn 8, server: 165.154.234.111, port: 41182, type: vmess, uuid: 610a5731-123c-4e8d-8f82-2d96459e42f5, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: adsad 2, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: meiguov1 2, server: 193.42.96.98, port: 30104, type: vmess, uuid: c7d03e59-8fff-463e-9589-9f8099d3e366, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: vmess1 2, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: qwewq 2, server: 3.8.89.83, port: 35017, type: vmess, uuid: 0457b5ce-79ea-4369-c2a0-ae793ccced13, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 213123 2, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: weqwe 2, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: weqwe 3, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false, udp: true}
 proxy-groups:
   - name: 🔰 SELECT
     type: select
