@@ -306,7 +306,7 @@ proxy-groups:
 proxy-providers:
   "TestedPool":
     type: http
-    url: "https://cdn.jsdelivr.net/gh/misersun/my_clash@main/config_tested.yaml"
+    url: "https://raw.githubusercontent.com/liudong19950828/test_other/main/virtual%20private%20network/1.yaml"
     interval: 3600
     path: ./download/config_tested.yaml
     health-check:
