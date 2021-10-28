@@ -483,9 +483,9 @@ rule-providers:
   direct:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    url: "https://github.com/SamadiPour/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
     path: ./ruleset/direct.yaml
-    interval: 86400
+    interval: 432000
 
   telegramcidr:
     type: http
@@ -497,8 +497,43 @@ rule-providers:
   lancidr:
     type: http
     behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    url: "https://cdn.jsdelivr.net/gh/Shikopat/direct/LAN.yaml"
     path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/Microsoft.yaml"
+    path: ./TopFreeProxies/ruleset/microsoft.yaml
+    interval: 86400
+
+  GlobalMedia:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/GlobalMedia.yaml"
+    path: ./TopFreeProxies/ruleset/globalmedia.yaml
+    interval: 86400
+
+  Twitter:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitter.yaml"
+    path: ./TopFreeProxies/ruleset/twitter.yaml
+    interval: 86400
+
+  Private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./TopFreeProxies/ruleset/private.yaml
+    interval: 86400
+
+  Rejection:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh//Shikopat/block/block2.yaml"
+    path: ./TopFreeProxies/ruleset/reject.yaml
     interval: 86400
 
 rules:
@@ -512,5 +547,11 @@ rules:
   - RULE-SET,proxy,FuckWall
   - RULE-SET,direct,DIRECT
   - RULE-SET,telegramcidr,FuckWall
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,Microsoft,FuckWall
+  - RULE-SET,GlobalMedia,FuckWall
+  - RULE-SET,Twitter,FuckWall
+  - RULE-SET,Private,DIRECT
+  - RULE-SET,Rejection,REJECT
   - GEOIP,IR,DIRECT
   - MATCH,Final
