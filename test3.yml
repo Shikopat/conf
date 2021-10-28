@@ -1,0 +1,271 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Shikopat 
+Shikopat
+/
+conf
+Public
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+conf/test2.yml
+@Shikopat
+Shikopat Update test2.yml
+Latest commit 09f9e93 6 hours ago
+ History
+ 1 contributor
+296 lines (281 sloc)  7.66 KB
+   
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: silent
+ipv6: false
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - 'dns.msftncsi.com'
+    - 'www.msftncsi.com'
+    - 'www.msftconnecttest.com'
+    - "dns.msftncsi.com"
+    - '*.lan'
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time1.*.com'
+    - 'time2.*.com'
+    - 'time3.*.com'
+    - 'time4.*.com'
+    - 'time5.*.com'
+    - 'time6.*.com'
+    - 'time7.*.com'
+    - 'ntp.*.com'
+    - 'ntp.*.com'
+    - 'ntp1.*.com'
+    - 'ntp2.*.com'
+    - 'ntp3.*.com'
+    - 'ntp4.*.com'
+    - 'ntp5.*.com'
+    - 'ntp6.*.com'
+    - 'ntp7.*.com'
+    - '+.pool.ntp.org'
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+  nameserver:
+    - 185.55.226.26
+    - 185.55.225.25
+    - 178.22.122.100
+    - 185.51.200.2
+    - 37.152.182.112
+    - 185.231.182.126
+    - 1.0.0.1
+    - https://dns.shecan.ir/dns-query
+    - https://dns.elteam.ir/dns-query
+    - tls://dns.shecan.ir
+    - tls://dns.elteam.ir
+    - tls://8.8.4.4:853
+  tun:
+    enable: true
+    stack: gvisor
+    dns-hijack:
+    - 198.18.0.2:53
+    - tcp://198.18.0.2:53
+    - tcp://8.8.8.8:53
+    - tcp://8.8.4.4:53
+    auto-route: true
+    auto-detect-interface: true
+  fallback:
+    - tls://dns.google:853
+    - https://dns.google/dns-query
+    - https://1.0.0.1/dns-query
+    - https://dnsforge.de/dns-quer
+  fallback-filter:
+    geoip: false
+    ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+    domain:
+    - '+.google.com'
+    - '+.facebook.com'
+    - '+.youtube.com'
+proxies:
+
+proxy-groups:
+  - name: Global Selection
+    type: select
+    proxies:
+      - Select2
+  - name: Select2
+    type: select
+    proxies:
+      - AZADNET
+  - name: AZADNET
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 900
+    use:
+      - azad
+rule-providers:
+  ad-keyword:
+    type: http
+    behavior: classical
+    path: ./providers/rule/common-ad-keyword.yaml
+    url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/common-ad-keyword.yaml"
+    interval: 3600
+
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://github.com/SamadiPour/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
+    path: ./ruleset/direct.yaml
+    interval: 432000
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Shikopat/direct/main/LAN.yaml"
+    path: ./ruleset/lancidr2.yaml
+    interval: 86400
+
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/Microsoft.yaml"
+    path: ./TopFreeProxies/ruleset/microsoft.yaml
+    interval: 86400
+
+  GlobalMedia:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/GlobalMedia.yaml"
+    path: ./TopFreeProxies/ruleset/globalmedia.yaml
+    interval: 86400
+
+  Twitter:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitter.yaml"
+    path: ./TopFreeProxies/ruleset/twitter.yaml
+    interval: 86400
+
+  Private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./TopFreeProxies/ruleset/private.yaml
+    interval: 86400
+
+  Rejection:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh//Shikopat/block/block2.yaml"
+    path: ./TopFreeProxies/ruleset/reject.yaml
+    interval: 86400
+
+rules:
+  - DOMAIN-SUFFIX,googleapis.cn,Global Selection
+  - DOMAIN-KEYWORD,facebook,Global Selection
+  - DOMAIN-KEYWORD,oculus,Global Selection
+  - DOMAIN-KEYWORD,oculuscdn,Global Selection
+  - DOMAIN-SUFFIX,myip.com,Global Selection
+  - RULE-SET,ad-keyword,REJECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,google,Global Selection
+  - RULE-SET,proxy,Global Selection
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,telegramcidr,Global Selection
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,Microsoft,Global Selection
+  - RULE-SET,GlobalMedia,Global Selection
+  - RULE-SET,Twitter,Global Selection
+  - RULE-SET,Private,DIRECT
+  - RULE-SET,Rejection,REJECT
+  - GEOIP,IR,DIRECT
+  - PROCESS-NAME,v2ray,DIRECT
+  - PROCESS-NAME,v2rayN,DIRECT
+  - PROCESS-NAME,xray,DIRECT
+  - PROCESS-NAME,naive,DIRECT
+  - PROCESS-NAME,trojan,DIRECT
+  - PROCESS-NAME,trojan-go,DIRECT
+  - PROCESS-NAME,ss-local,DIRECT
+  - PROCESS-NAME,privoxy,DIRECT
+  - PROCESS-NAME,leaf,DIRECT
+  - PROCESS-NAME,v2ray.exe,DIRECT
+  - PROCESS-NAME,xray.exe,DIRECT
+  - PROCESS-NAME,naive.exe,DIRECT
+  - PROCESS-NAME,trojan.exe,DIRECT
+  - PROCESS-NAME,trojan-go.exe,DIRECT
+  - PROCESS-NAME,ss-local.exe,DIRECT
+  - PROCESS-NAME,privoxy.exe,DIRECT
+  - PROCESS-NAME,leaf.exe,DIRECT
+  - PROCESS-NAME,Thunder,DIRECT
+  - PROCESS-NAME,DownloadService,DIRECT
+  - PROCESS-NAME,qBittorrent,DIRECT
+  - PROCESS-NAME,Transmission,DIRECT
+  - PROCESS-NAME,fdm,DIRECT
+  - PROCESS-NAME,aria2c,DIRECT
+  - PROCESS-NAME,Folx,DIRECT
+  - PROCESS-NAME,NetTransport,DIRECT
+  - PROCESS-NAME,uTorrent,DIRECT
+  - PROCESS-NAME,WebTorrent,DIRECT
+  - PROCESS-NAME,aria2c.exe,DIRECT
+  - PROCESS-NAME,BitComet.exe,DIRECT
+  - PROCESS-NAME,fdm.exe,DIRECT
+  - PROCESS-NAME,NetTransport.exe,DIRECT
+  - PROCESS-NAME,qbittorrent.exe,DIRECT
+  - PROCESS-NAME,Thunder.exe,DIRECT
+  - PROCESS-NAME,ThunderVIP.exe,DIRECT
+  - PROCESS-NAME,transmission-daemon.exe,DIRECT
+  - PROCESS-NAME,transmission-qt.exe,DIRECT
+  - PROCESS-NAME,uTorrent.exe,DIRECT
+  - PROCESS-NAME,WebTorrent.exe,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - IP-CIDR,10.240.0.0/24,DIRECT,no-resolve
