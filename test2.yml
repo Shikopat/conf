@@ -196,7 +196,7 @@ rule-providers:
     type: http
     behavior: ipcidr
     url: "https://raw.githubusercontent.com/Shikopat/direct/main/LAN.yaml"
-    path: ./ruleset/lancidr.yaml
+    path: ./ruleset/lancidr2.yaml
     interval: 86400
 
   Microsoft:
