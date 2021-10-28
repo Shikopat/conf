@@ -56,25 +56,25 @@ dns:
     - tls://dns.elteam.ir
     - tls://8.8.4.4:853
   fallback-filter:
-   geoip: false
-   ipcidr:
+    geoip: false
+    ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-   domain:
+  domain:
     - '+.google.com'
     - '+.facebook.com'
     - '+.youtube.com'
      interface -name: Ethernet
-   tun:
-     enable: true
-     stack: gvisor
-     dns-hijack:
+  tun:
+    enable: true
+    stack: gvisor
+    dns-hijack:
     - 198.18.0.2:53
     - tcp://198.18.0.2:53
     - tcp://8.8.8.8:53
     - tcp://8.8.4.4:53
-     auto-route: true
-     auto-detect-interface: true
+    auto-route: true
+    auto-detect-interface: true
   fallback:
     - tls://dns.google:853
     - https://dns.google/dns-query
@@ -648,6 +648,5 @@ rules:
   - PROCESS-NAME,WebTorrent.exe,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
-
-       - IP-CIDR,10.240.0.0/24,DIRECT,no-resolve
+  - IP-CIDR,10.240.0.0/24,DIRECT,no-resolve
   - MATCH,Final
