@@ -86,16 +86,9 @@ proxy-groups:
   - name: Select2
     type: select
     proxies:
-      - AZADNET
       - GLYSIT
       - BNCHANLL
       - VPN666
-  - name: AZADNET
-    type: url-test
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 900
-    use:
-      - azad
   - name: GLYSIT
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -115,17 +108,9 @@ proxy-groups:
     use:
       - ru
 proxy-providers:
-  azad:
-    type: http
-    url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml"
-    path: proxypool.fly.dev/provider-au.yaml
-    health-check:
-      enable: true
-      interval: 900
-      url: http://www.gstatic.com/generate_204
   gly:
     type: http
-    url: "https://raw.githubusercontent.com/AZADNET/Clash/main/ClashAZADNET.yml"
+    url: "https://raw.githubusercontent.com/Glysit/Clash/main/ClashGlysit.yml"
     path: proxypool.fly.dev/provider-us.yaml
     health-check:
       enable: true
