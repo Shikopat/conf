@@ -405,7 +405,7 @@ proxy-providers:
   
   sspool_us:
     type: http
-    url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/3/config.yaml"
+    url: "https://raw.githubusercontent.com/aliahmadiALA/SurfShark_ALA/main/(SurfShark_ALA).yaml"
     path: ./download/sspool_us.yaml
     health-check:
       enable: true
