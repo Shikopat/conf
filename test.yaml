@@ -316,7 +316,7 @@ proxy-providers:
 
   "MyPool":
     type: http
-    url: "https://cdn.jsdelivr.net/gh/misersun/my_clash@main/my_github_clash.yaml"
+    url: "https://raw.githubusercontent.com/jarepolist/Proxy-List/main/Clash.yaml"
     interval: 3600
     path: ./download/my_github_clash.yaml
     health-check:
