@@ -396,7 +396,7 @@ proxy-providers:
 #https://sspool.herokuapp.com/clash/config 
   sspool_all:
     type: http
-    url: "https://raw.githubusercontent.com/sangowd/free_doom/main/mattkay.yml"
+    url: "https://raw.fastgit.org/alanbobs999/TopFreeProxies/master/update/provider/eternity-all.yml"
     path: ./download/sspool_all.yaml
     health-check:
       enable: true
@@ -405,7 +405,7 @@ proxy-providers:
   
   sspool_us:
     type: http
-    url: "https://raw.githubusercontent.com/Shuery-Shuai/Profiles_for_Clash/main/Profiles/Pubic%20from%20V9999.yml"
+    url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/3/config.yaml"
     path: ./download/sspool_us.yaml
     health-check:
       enable: true
