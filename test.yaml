@@ -43,18 +43,38 @@ dns:
     - 'stun.*.*'
     - 'stun.*.*.*'
   nameserver:
-       - 185.55.226.26
-       - 185.55.225.25
-       - 178.22.122.100
-       - 185.51.200.2
-       - 37.152.182.112
-       - 185.231.182.126
-       - 1.0.0.1
-       - https://dns.shecan.ir/dns-query
-       - https://dns.elteam.ir/dns-query
-       - tls://dns.shecan.ir
-       - tls://dns.elteam.ir
-       - tls://8.8.4.4:853
+    - 185.55.226.26
+    - 185.55.225.25
+    - 178.22.122.100
+    - 185.51.200.2
+    - 37.152.182.112
+    - 185.231.182.126
+    - 1.0.0.1
+    - https://dns.shecan.ir/dns-query
+    - https://dns.elteam.ir/dns-query
+    - tls://dns.shecan.ir
+    - tls://dns.elteam.ir
+    - tls://8.8.4.4:853
+  fallback-filter:
+   geoip: false
+   ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+   domain:
+    - '+.google.com'
+    - '+.facebook.com'
+    - '+.youtube.com'
+     interface -name: Ethernet
+   tun:
+     enable: true
+     stack: gvisor
+     dns-hijack:
+    - 198.18.0.2:53
+    - tcp://198.18.0.2:53
+    - tcp://8.8.8.8:53
+    - tcp://8.8.4.4:53
+     auto-route: true
+     auto-detect-interface: true
   fallback:
     - tls://dns.google:853
     - https://dns.google/dns-query
