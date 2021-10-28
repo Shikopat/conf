@@ -5,12 +5,13 @@ bind-address: '*'
 mode: rule
 log-level: silent
 ipv6: false
-#external-controller: 0.0.0.0:9090
+external-controller: 0.0.0.0:9090
 #external-ui: dashboardB
 #interface-name: en0
 dns:
   enable: true
-  listen: 0.0.0.0:1053
+  ipv6: false
+  listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -18,13 +19,42 @@ dns:
     - 'dns.msftncsi.com'
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
+    - "dns.msftncsi.com"
+    - '*.lan'
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time1.*.com'
+    - 'time2.*.com'
+    - 'time3.*.com'
+    - 'time4.*.com'
+    - 'time5.*.com'
+    - 'time6.*.com'
+    - 'time7.*.com'
+    - 'ntp.*.com'
+    - 'ntp.*.com'
+    - 'ntp1.*.com'
+    - 'ntp2.*.com'
+    - 'ntp3.*.com'
+    - 'ntp4.*.com'
+    - 'ntp5.*.com'
+    - 'ntp6.*.com'
+    - 'ntp7.*.com'
+    - '+.pool.ntp.org'
+    - 'stun.*.*'
+    - 'stun.*.*.*'
   nameserver:
-    - tls://dns.google:853
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.adguard.com/dns-query
-    - https://dnsforge.de/dns-quer
-    - https://dns.quad9.net/dns-query
+       - 185.55.226.26
+       - 185.55.225.25
+       - 178.22.122.100
+       - 185.51.200.2
+       - 37.152.182.112
+       - 185.231.182.126
+       - 1.0.0.1
+       - https://dns.shecan.ir/dns-query
+       - https://dns.elteam.ir/dns-query
+       - tls://dns.shecan.ir
+       - tls://dns.elteam.ir
+       - tls://8.8.4.4:853
   fallback:
     - tls://dns.google:853
     - https://dns.google/dns-query
@@ -32,7 +62,11 @@ dns:
     - https://dns.adguard.com/dns-query
     - https://dnsforge.de/dns-quer
     - https://dns.quad9.net/dns-query
-
+    - tls://dns.google:853
+    - tls://one.one.one.one:853
+    - tls://8.8.4.4:853
+    - tls://1.0.0.1:853
+    - tls://1.1.1.1:853
 proxy-groups:
   - name: "FuckWall"
     type: select
@@ -554,4 +588,46 @@ rules:
   - RULE-SET,Private,DIRECT
   - RULE-SET,Rejection,REJECT
   - GEOIP,IR,DIRECT
+  - PROCESS-NAME,v2ray,DIRECT
+  - PROCESS-NAME,v2rayN,DIRECT
+  - PROCESS-NAME,xray,DIRECT
+  - PROCESS-NAME,naive,DIRECT
+  - PROCESS-NAME,trojan,DIRECT
+  - PROCESS-NAME,trojan-go,DIRECT
+  - PROCESS-NAME,ss-local,DIRECT
+  - PROCESS-NAME,privoxy,DIRECT
+  - PROCESS-NAME,leaf,DIRECT
+  - PROCESS-NAME,v2ray.exe,DIRECT
+  - PROCESS-NAME,xray.exe,DIRECT
+  - PROCESS-NAME,naive.exe,DIRECT
+  - PROCESS-NAME,trojan.exe,DIRECT
+  - PROCESS-NAME,trojan-go.exe,DIRECT
+  - PROCESS-NAME,ss-local.exe,DIRECT
+  - PROCESS-NAME,privoxy.exe,DIRECT
+  - PROCESS-NAME,leaf.exe,DIRECT
+  - PROCESS-NAME,Thunder,DIRECT
+  - PROCESS-NAME,DownloadService,DIRECT
+  - PROCESS-NAME,qBittorrent,DIRECT
+  - PROCESS-NAME,Transmission,DIRECT
+  - PROCESS-NAME,fdm,DIRECT
+  - PROCESS-NAME,aria2c,DIRECT
+  - PROCESS-NAME,Folx,DIRECT
+  - PROCESS-NAME,NetTransport,DIRECT
+  - PROCESS-NAME,uTorrent,DIRECT
+  - PROCESS-NAME,WebTorrent,DIRECT
+  - PROCESS-NAME,aria2c.exe,DIRECT
+  - PROCESS-NAME,BitComet.exe,DIRECT
+  - PROCESS-NAME,fdm.exe,DIRECT
+  - PROCESS-NAME,NetTransport.exe,DIRECT
+  - PROCESS-NAME,qbittorrent.exe,DIRECT
+  - PROCESS-NAME,Thunder.exe,DIRECT
+  - PROCESS-NAME,ThunderVIP.exe,DIRECT
+  - PROCESS-NAME,transmission-daemon.exe,DIRECT
+  - PROCESS-NAME,transmission-qt.exe,DIRECT
+  - PROCESS-NAME,uTorrent.exe,DIRECT
+  - PROCESS-NAME,WebTorrent.exe,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+
+       - IP-CIDR,10.240.0.0/24,DIRECT,no-resolve
   - MATCH,Final
