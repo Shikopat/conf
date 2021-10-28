@@ -9,25 +9,17 @@ dns:
   enable: true
   ipv6: false
   listen: 0.0.0.0:53
-  default-nameserver:
-    - 1.1.1.1
-    - 1.0.0.1
-    - 8.8.8.8
-    - 8.8.4.4
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
-    - '*.linksys.com'
-    - '*.linksyssmartwifi.com'
-    - 'swscan.apple.com'
-    - 'mesu.apple.com'
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
+    - 'dns.msftncsi.com'
+    - 'www.msftncsi.com'
+    - 'www.msftconnecttest.com'
+    - "dns.msftncsi.com"
+    - '*.lan'
     - 'time.*.com'
     - 'time.*.gov'
-    - 'time.*.edu.ir'
-    - 'time.*.apple.com'
     - 'time1.*.com'
     - 'time2.*.com'
     - 'time3.*.com'
@@ -44,32 +36,46 @@ dns:
     - 'ntp5.*.com'
     - 'ntp6.*.com'
     - 'ntp7.*.com'
-    - '*.time.ir'
-    - '*.ntp.org.ir'
     - '+.pool.ntp.org'
-    - '+.srv.nintendo.net'
-    - '+.stun.playstation.net'
-    - 'xbox.*.microsoft.com'
-    - '+.xboxlive.com'
-    - 'localhost.ptlogin2.qq.com'
-    - 'proxy.golang.org'
     - 'stun.*.*'
     - 'stun.*.*.*'
   nameserver:
-    - tls://dns.google:853
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.adguard.com/dns-query
+    - 185.55.226.26
+    - 185.55.225.25
+    - 178.22.122.100
+    - 185.51.200.2
+    - 37.152.182.112
+    - 185.231.182.126
+    - 1.0.0.1
+    - https://dns.shecan.ir/dns-query
+    - https://dns.elteam.ir/dns-query
+    - tls://dns.shecan.ir
+    - tls://dns.elteam.ir
+    - tls://8.8.4.4:853
+  tun:
+    enable: true
+    stack: gvisor
+    dns-hijack:
+    - 198.18.0.2:53
+    - tcp://198.18.0.2:53
+    - tcp://8.8.8.8:53
+    - tcp://8.8.4.4:53
+    auto-route: true
+    auto-detect-interface: true
   fallback:
     - tls://dns.google:853
     - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.adguard.com/dns-query
+    - https://1.0.0.1/dns-query
+    - https://dnsforge.de/dns-quer
   fallback-filter:
-    geoip: true
+    geoip: false
     ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+    domain:
+    - '+.google.com'
+    - '+.facebook.com'
+    - '+.youtube.com'
 proxies:
 
 proxy-groups:
