@@ -93,6 +93,15 @@ proxy-groups:
     interval: 900
     use:
       - azad
+proxy-providers:
+  azad:
+    type: http
+    url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml"
+    path: proxypool.fly.dev/provider-au.yaml
+    health-check:
+      enable: true
+      interval: 900
+      url: http://www.gstatic.com/generate_204
 rule-providers:
   ad-keyword:
     type: http
