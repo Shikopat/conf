@@ -416,7 +416,7 @@ proxy-providers:
 #https://proxypool-guest997.herokuapp.com/clash/config
   herokuapp_all:
     type: http
-    url: "https://raw.githubusercontent.com/misersun/my_clash/main/my_github_clash.yaml"  
+    url: "https://raw.githubusercontent.com/om3gaplus/clash-config/main/franceconf.yml"  
     path: ./download/herokuapp_all.yaml
     health-check:
       enable: true
@@ -425,7 +425,7 @@ proxy-providers:
       
   herokuapp_us:
     type: http
-    url: "https://raw.githubusercontent.com/misersun/my_clash/main/config_tested.yaml"    
+    url: "https://raw.githubusercontent.com/om3gaplus/clash-config/main/germanyconfig.yml"    
     path: ./download/herokuapp_us.yaml
     health-check:
       enable: true
