@@ -294,4 +294,3 @@ rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - IP-CIDR,10.240.0.0/24,DIRECT,no-resolve
-  - MATCH,Final
