@@ -218,7 +218,7 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh//Shikopat/block/block2.yaml"
     path: ./TopFreeProxies/ruleset/reject.yaml
     interval: 86400
-    rule-providers:
+
   iran:
     type: http
     behavior: classical
