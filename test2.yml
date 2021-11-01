@@ -218,6 +218,13 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh//Shikopat/block/block2.yaml"
     path: ./TopFreeProxies/ruleset/reject.yaml
     interval: 86400
+    rule-providers:
+  iran:
+    type: http
+    behavior: classical
+    url: "https://github.com/SamadiPour/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
+    path: ./ruleset/iran.yaml
+    interval: 432000
 
 rules:
   - DOMAIN-SUFFIX,googleapis.cn,Global Selection
@@ -237,6 +244,7 @@ rules:
   - RULE-SET,Twitter,Global Selection
   - RULE-SET,Private,DIRECT
   - RULE-SET,Rejection,REJECT
+  - RULE-SET,iran,DIRECT
   - GEOIP,IR,DIRECT
   - PROCESS-NAME,v2ray,DIRECT
   - PROCESS-NAME,v2rayN,DIRECT
