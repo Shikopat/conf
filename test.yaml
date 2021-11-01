@@ -587,6 +587,13 @@ rule-providers:
     path: ./TopFreeProxies/ruleset/reject.yaml
     interval: 86400
 
+  iran:
+    type: http
+    behavior: classical
+    url: "https://github.com/SamadiPour/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
+    path: ./ruleset/iran.yaml
+    interval: 432000
+
 rules:
   - DOMAIN-SUFFIX,googleapis.cn,FuckWall
   - DOMAIN-KEYWORD,facebook,Just4FaceBook
@@ -604,6 +611,7 @@ rules:
   - RULE-SET,Twitter,FuckWall
   - RULE-SET,Private,DIRECT
   - RULE-SET,Rejection,REJECT
+  - RULE-SET,iran,DIRECT
   - GEOIP,IR,DIRECT
   - PROCESS-NAME,v2ray,DIRECT
   - PROCESS-NAME,v2rayN,DIRECT
