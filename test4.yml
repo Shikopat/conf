@@ -48,7 +48,6 @@ dns:
   fallback-filter:
     geoip: true
 proxies:
-proxies:
   - {name: "ufo Australia 🇦🇺 Sydney", server: 66.203.112.53, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: "ufo Belgium 🇧🇪 Brussels", server: 193.9.114.34, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: "ufo Brazil 🇧🇷 SãoPaulo", server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
