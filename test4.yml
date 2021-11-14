@@ -950,6 +950,52 @@ proxy-groups:
       - USA 🇺🇸 Georgia 6
       - USA 🇺🇸 Nevada
       - USA 🇺🇸 Atlanta 2
+  - name: 🔥 Auto2(Best ping)
+    type: url-test
+    url: http://www.google.com
+    interval: 300
+    proxies:
+      - FRA 🇫🇷 Carpentras
+      - GER 🇩🇪 GER
+      - GER 🇩🇪 GER 2
+      - GER 🇩🇪 GER 3
+      - GER 🇩🇪 GER 4
+      - GER 🇩🇪 GER 5
+      - GER 🇩🇪 GER 6
+      - GER 🇩🇪 GER 8
+      - GER 🇩🇪 GER 10
+      - GER 🇩🇪 GER 16
+      - GER 🇩🇪 GER 17
+      - HUN 🇭🇺 Budapest
+      - IDN 🇮🇩 Bogor
+      - JPN 🇯🇵 Tokyo 6
+      - JPN 🇯🇵 Tokyo 8
+      - LUX 🇱🇺 Bissen 2
+      - NLD 🇳🇱 NLD 2
+      - NLD 🇳🇱 NLD 3
+      - NLD 🇳🇱 NLD 4
+      - NLD 🇳🇱 NLD 5
+      - NLD 🇳🇱 NLD 6
+      - NLD 🇳🇱 NLD 8
+      - NLD 🇳🇱 NLD 9
+      - NLD 🇳🇱 NLD 10
+      - NLD 🇳🇱 NLD 11
+      - NLD 🇳🇱 NLD 12
+      - NLD 🇳🇱 NLD 13
+      - POL 🇵🇱 Warsaw 1
+      - PRC 🇨🇳 China 4
+      - PRC 🇨🇳 China 5
+      - RUS 🇷🇺 RUS 2
+      - RUS 🇷🇺 Moscow 3
+      - RUS 🇷🇺 Moscow 4
+      - RUS 🇷🇺 Moscow 5
+      - RUS 🇷🇺 Moscow 7
+      - SOAF 🇿🇦 Johannesburg 1
+      - SOAF 🇿🇦 Johannesburg 2
+      - SGP 🇸🇬 Singapore
+      - UK 🇬🇧 London 4
+      - USA 🇺🇸 Los Angeles
+      - USA 🇺🇲 Nevada
   - name: ↪️ use (vmess & trojan) group
     type: select
     proxies:
