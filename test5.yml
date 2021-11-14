@@ -96,7 +96,7 @@ proxy-groups:
 proxy-providers:
   azad:
     type: http
-    url: "https://raw.githubusercontent.com/Shikopat/conf/main/test4.yml"
+    url: "https://pastebin.com/raw/YJfWcv3M"
     path: proxypool.fly.dev/provider-au.yaml
     health-check:
       enable: true
